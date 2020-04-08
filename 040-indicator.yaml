@@ -5,7 +5,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
         country: '@country_afg'
@@ -74,7 +73,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
         country: '@country_afg'
@@ -93,7 +91,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-new_idps_by_natural_disasters_per_year:
         country: '@country_afg'
@@ -101,7 +98,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_afg'
@@ -130,7 +126,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-registered_afghan_returnees_from_pakistan_per_year:
         country: '@country_afg'
@@ -138,7 +133,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-returnees_from_iran_per_year:
         country: '@country_afg'
@@ -146,7 +140,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-returnees_from_pakistan_per_year:
         country: '@country_afg'
@@ -154,7 +147,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-undocumented_afghan_returnees_from_iran_per_year:
         country: '@country_afg'
@@ -162,7 +154,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     afg-undocumented_afghan_returnees_from_pakistan_per_year:
         country: '@country_afg'
@@ -170,7 +161,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bdi-children_in_need:
         country: '@country_bdi'
@@ -185,7 +175,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bdi-idps:
         country: '@country_bdi'
@@ -193,7 +182,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bdi-malaria_deaths_in_2019:
         country: '@country_bdi'
@@ -201,8 +189,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_malaria_deaths'
-        - '@term_theme_malaria'
-        - '@term_theme_disease_deaths'
         - '@term_theme_health'
     bdi-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_bdi'
@@ -231,8 +217,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_malaria_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_malaria'
         - '@term_theme_health'
     bfa-children_idps:
         country: '@country_bfa'
@@ -242,7 +226,6 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
-        - '@term_theme_displacement'
     bfa-children_in_need:
         country: '@country_bfa'
         name: Children in Need
@@ -268,7 +251,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bfa-malian_refugees_in_burkina_faso:
         country: '@country_bfa'
@@ -276,7 +258,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bfa-people_affected_by_closure_of_health_centres:
         country: '@country_bfa'
@@ -331,7 +312,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bfa-schools_closed_due_to_insecurity:
         country: '@country_bfa'
@@ -374,7 +354,6 @@ App\Entity\Indicator:
         organization: WFP
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_people_assisted_wfp'
         - '@term_theme_food'
@@ -384,7 +363,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_15_jamtoli_in_cox_s_bazar:
         country: '@country_bgd'
@@ -392,7 +370,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_16_bagghona_potibonia_in_cox_s_bazar:
         country: '@country_bgd'
@@ -400,7 +377,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_21_chakmarkul_in_cox_s_bazar:
         country: '@country_bgd'
@@ -408,7 +384,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_22_unchiprang_in_cox_s_bazar:
         country: '@country_bgd'
@@ -416,7 +391,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_23_shamlapur_in_cox_s_bazar:
         country: '@country_bgd'
@@ -424,7 +398,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_24_leda_in_cox_s_bazar:
         country: '@country_bgd'
@@ -432,7 +405,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_25_ali_khali_in_cox_s_bazar:
         country: '@country_bgd'
@@ -440,7 +412,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_26_nayapara_in_cox_s_bazar:
         country: '@country_bgd'
@@ -448,7 +419,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_camp_27_jadimura_in_cox_s_bazar:
         country: '@country_bgd'
@@ -456,7 +426,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_kutupalong_expansion_site_in_cox_s_bazar:
         country: '@country_bgd'
@@ -464,7 +433,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-refugees_in_kutupalong_rc_in_cox_s_bazar:
         country: '@country_bgd'
@@ -472,7 +440,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-rohingya_children_in_need:
         country: '@country_bgd'
@@ -487,7 +454,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     bgd-total_rohingya_refugees_in_cox_s_bazar:
         country: '@country_bgd'
@@ -495,7 +461,6 @@ App\Entity\Indicator:
         organization: ISCG
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
         country: '@country_caf'
@@ -535,7 +500,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-car_refugees_in_cameroon:
         country: '@country_caf'
@@ -543,7 +507,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-car_refugees_in_drc:
         country: '@country_caf'
@@ -551,7 +514,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-car_refugees_in_south_sudan:
         country: '@country_caf'
@@ -559,7 +521,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-car_refugees_in_the_region:
         country: '@country_caf'
@@ -567,7 +528,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-car_refugees_repatriated_from_cameroon_cumulative:
         country: '@country_caf'
@@ -575,7 +535,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-children_in_need:
         country: '@country_caf'
@@ -590,7 +549,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-idps:
         country: '@country_caf'
@@ -598,7 +556,6 @@ App\Entity\Indicator:
         organization: CMP
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-incidents_affecting_humanitarian_organisations_per_month:
         country: '@country_caf'
@@ -627,8 +584,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     caf-measles_deaths_since_jan_2019:
         country: '@country_caf'
@@ -636,8 +591,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_measles'
         - '@term_theme_health'
     caf-new_idps_by_conflict_per_year:
         country: '@country_caf'
@@ -645,7 +598,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-new_idps_by_natural_disasters_per_year:
         country: '@country_caf'
@@ -653,7 +605,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     caf-people_assisted_with_wfp_food_assistance_per_month:
         country: '@country_caf'
@@ -696,8 +647,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     cmr-cameroonian_refugees_in_nigeria:
         country: '@country_cmr'
@@ -705,7 +654,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-car_refugees_in_cameroon:
         country: '@country_cmr'
@@ -713,7 +661,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-car_refugees_repatriated_from_cameroon_cumulative:
         country: '@country_cmr'
@@ -721,7 +668,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-children_in_need:
         country: '@country_cmr'
@@ -736,8 +682,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     cmr-confirmed_cholera_cases_since_mar_2019:
         country: '@country_cmr'
@@ -745,8 +689,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     cmr-idps:
         country: '@country_cmr'
@@ -754,7 +696,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-idps_in_far_north:
         country: '@country_cmr'
@@ -762,7 +703,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-idps_in_north_west_south_west_regions:
         country: '@country_cmr'
@@ -770,7 +710,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-new_idps_by_conflict_per_year:
         country: '@country_cmr'
@@ -778,7 +717,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-nigerian_refugees_in_cameroon:
         country: '@country_cmr'
@@ -786,7 +724,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-out_of_camp_refugees_in_far_north:
         country: '@country_cmr'
@@ -794,7 +731,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-people_assisted_with_wfp_food_assistance_per_month:
         country: '@country_cmr'
@@ -831,7 +767,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-refugees_asylum_seekers_in_cameroon:
         country: '@country_cmr'
@@ -839,7 +774,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-refugees_in_far_north:
         country: '@country_cmr'
@@ -847,7 +781,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-returnees:
         country: '@country_cmr'
@@ -855,7 +788,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-returnees_in_far_north:
         country: '@country_cmr'
@@ -863,7 +795,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cmr-schools_closed_due_to_insecurity:
         country: '@country_cmr'
@@ -887,8 +818,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     cod-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
         country: '@country_cod'
@@ -928,7 +857,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-burundian_refugees_in_drc:
         country: '@country_cod'
@@ -936,7 +864,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-car_refugees_in_drc:
         country: '@country_cod'
@@ -944,7 +871,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-chidren_in_need:
         country: '@country_cod'
@@ -959,7 +885,6 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
-        - '@term_theme_displacement'
     cod-children_returnees:
         country: '@country_cod'
         name: Children Returnees
@@ -968,7 +893,6 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
-        - '@term_theme_displacement'
     cod-children_with_severe_acute_malnutrition:
         country: '@country_cod'
         name: Children with Severe Acute Malnutrition
@@ -984,8 +908,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     cod-confirmed_measles_cases_per_year:
         country: '@country_cod'
@@ -993,8 +915,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     cod-drc_refugee_arrivals_in_uganda_per_month:
         country: '@country_cod'
@@ -1002,7 +922,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugee_arrivals_in_uganda_per_year:
         country: '@country_cod'
@@ -1010,7 +929,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_asylum_seekers:
         country: '@country_cod'
@@ -1018,7 +936,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_asylum_seekers_in_car:
         country: '@country_cod'
@@ -1026,7 +943,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_asylum_seekers_in_kenya:
         country: '@country_cod'
@@ -1034,7 +950,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_asylum_seekers_in_rwanda:
         country: '@country_cod'
@@ -1042,7 +957,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_asylum_seekers_in_uganda:
         country: '@country_cod'
@@ -1050,7 +964,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_asylum_seekers_in_zambia:
         country: '@country_cod'
@@ -1058,7 +971,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_burundi:
         country: '@country_cod'
@@ -1066,7 +978,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_malawi:
         country: '@country_cod'
@@ -1074,7 +985,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_republic_of_congo:
         country: '@country_cod'
@@ -1082,7 +992,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_south_sudan:
         country: '@country_cod'
@@ -1090,7 +999,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_southern_africa:
         country: '@country_cod'
@@ -1098,7 +1006,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_tanzania:
         country: '@country_cod'
@@ -1106,7 +1013,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_in_zimbabwe:
         country: '@country_cod'
@@ -1114,7 +1020,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-drc_refugees_repatriated_from_angola_cumulative:
         country: '@country_cod'
@@ -1122,7 +1027,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-ebola_confirmed_cases_since_may_2018:
         country: '@country_cod'
@@ -1130,8 +1034,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_ebola_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_ebola'
         - '@term_theme_health'
     cod-ebola_deaths_since_4_apr_2018:
         country: '@country_cod'
@@ -1139,8 +1041,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_ebola_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_ebola'
         - '@term_theme_health'
     cod-idps:
         country: '@country_cod'
@@ -1148,7 +1048,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
         country: '@country_cod'
@@ -1167,8 +1066,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_measles'
         - '@term_theme_health'
     cod-new_arrivals_from_drc_in_countries_of_asylum_per_month:
         country: '@country_cod'
@@ -1186,7 +1083,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-new_idps_by_natural_disasters_per_year:
         country: '@country_cod'
@@ -1194,7 +1090,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_cod'
@@ -1230,7 +1125,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-returnees:
         country: '@country_cod'
@@ -1238,7 +1132,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-rwandan_refugees_in_drc:
         country: '@country_cod'
@@ -1246,7 +1139,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-rwandan_refugees_repatriated_from_drc_cumulative_per_year:
         country: '@country_cod'
@@ -1254,7 +1146,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-s_sudanese_refugee_arrivals_in_drc_cumulative_per_year:
         country: '@country_cod'
@@ -1262,7 +1153,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-s_sudanese_refugees_in_drc:
         country: '@country_cod'
@@ -1270,7 +1160,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     cod-schools_closed_due_to_insecurity:
         country: '@country_cod'
@@ -1285,8 +1174,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     cod-total_ebola_cases_since_may_2018:
         country: '@country_cod'
@@ -1294,8 +1181,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_ebola_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_ebola'
         - '@term_theme_health'
     cod-total_measles_cases_per_year:
         country: '@country_cod'
@@ -1303,8 +1188,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     col-attacks_against_civilian_population:
         country: '@country_col'
@@ -1326,7 +1209,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     col-new_idps_due_to_conflict_and_violence_per_year:
         country: '@country_col'
@@ -1334,7 +1216,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     col-people_affected_by_natural_disasters:
         country: '@country_col'
@@ -1389,8 +1270,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     eth-cholera_deaths_since_may_2019:
         country: '@country_eth'
@@ -1398,8 +1277,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     eth-climate_induced_idps:
         country: '@country_eth'
@@ -1407,7 +1284,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-conflict_affected_idps:
         country: '@country_eth'
@@ -1415,7 +1291,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-eritrean_refugees_asylum_seekers_in_ethiopia:
         country: '@country_eth'
@@ -1423,7 +1298,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-idps:
         country: '@country_eth'
@@ -1431,7 +1305,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-idps_by_other_factors:
         country: '@country_eth'
@@ -1439,7 +1312,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-new_idps_by_conflict_per_year:
         country: '@country_eth'
@@ -1447,7 +1319,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-new_idps_by_natural_disasters_per_year:
         country: '@country_eth'
@@ -1455,7 +1326,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_eth'
@@ -1491,7 +1361,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-refugee_asylum_seeker_arrivals_in_ethiopia_per_month:
         country: '@country_eth'
@@ -1499,7 +1368,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-refugees_asylum_seekers_in_ethiopia:
         country: '@country_eth'
@@ -1507,7 +1375,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-s_sudanese_refugee_arrivals_in_ethiopia_per_year:
         country: '@country_eth'
@@ -1515,7 +1382,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-s_sudanese_refugee_arrivals_in_gambella_per_month:
         country: '@country_eth'
@@ -1523,7 +1389,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-s_sudanese_refugee_arrivals_in_gambella_per_year:
         country: '@country_eth'
@@ -1531,7 +1396,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-s_sudanese_refugees_asylum_seekers_in_ethiopia:
         country: '@country_eth'
@@ -1539,7 +1403,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-somali_refugees_asylum_seekers_in_ethiopia:
         country: '@country_eth'
@@ -1547,7 +1410,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-sudanese_refugees_and_asylum_seekers_in_ethiopia:
         country: '@country_eth'
@@ -1555,7 +1417,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     eth-total_cholera_cases_since_may_2019:
         country: '@country_eth'
@@ -1563,8 +1424,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     eth-yemeni_refugees_and_asylum_seekers_in_ethiopia:
         country: '@country_eth'
@@ -1572,7 +1431,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     hti-children_in_need:
         country: '@country_hti'
@@ -1587,8 +1445,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     hti-cholera_cases_cumulative_since_oct_2010:
         country: '@country_hti'
@@ -1596,8 +1452,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     hti-cholera_deaths_cumulative_per_year:
         country: '@country_hti'
@@ -1605,8 +1459,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     hti-cholera_deaths_cumulative_since_oct_2010:
         country: '@country_hti'
@@ -1614,8 +1466,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     hti-idps_due_to_2010_earthquake:
         country: '@country_hti'
@@ -1623,7 +1473,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     hti-new_idps_by_natural_disasters_per_year:
         country: '@country_hti'
@@ -1631,7 +1480,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     hti-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_hti'
@@ -1711,7 +1559,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_anbar_governorate:
         country: '@country_irq'
@@ -1719,7 +1566,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_babylon_governorate:
         country: '@country_irq'
@@ -1727,7 +1573,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_baghdad_governorate:
         country: '@country_irq'
@@ -1735,7 +1580,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_dahuk_governorate:
         country: '@country_irq'
@@ -1743,7 +1587,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_diyala_governorate:
         country: '@country_irq'
@@ -1751,7 +1594,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_erbil_governorate:
         country: '@country_irq'
@@ -1759,7 +1601,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_kerbala_governorate:
         country: '@country_irq'
@@ -1767,7 +1608,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_kirkuk_governorate:
         country: '@country_irq'
@@ -1775,7 +1615,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_najaf_governorate:
         country: '@country_irq'
@@ -1783,7 +1622,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_ninewa_governorate:
         country: '@country_irq'
@@ -1791,7 +1629,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_salah_al_din_governorate:
         country: '@country_irq'
@@ -1799,7 +1636,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-idps_in_sulaymaniyah_governorate:
         country: '@country_irq'
@@ -1807,7 +1643,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-iraqi_refugees_in_jordan:
         country: '@country_irq'
@@ -1815,7 +1650,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-iraqi_refugees_in_turkey:
         country: '@country_irq'
@@ -1823,7 +1657,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
         country: '@country_irq'
@@ -1842,7 +1675,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-new_idps_by_natural_disasters_per_year:
         country: '@country_irq'
@@ -1850,7 +1682,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-non_syrian_refugees_in_iraq:
         country: '@country_irq'
@@ -1858,7 +1689,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-people_in_need:
         country: '@country_irq'
@@ -1887,7 +1717,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     irq-stateless_people:
         country: '@country_irq'
@@ -1900,7 +1729,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-burundian_refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -1908,7 +1736,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-children_in_need:
         country: '@country_ken'
@@ -1923,7 +1750,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-drc_refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -1931,7 +1757,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-ethiopian_refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -1939,7 +1764,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-food_insecure_people:
         country: '@country_ken'
@@ -1954,7 +1778,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-kakuma_camp_refugee_population:
         country: '@country_ken'
@@ -1962,7 +1785,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-new_idps_by_conflict_per_year:
         country: '@country_ken'
@@ -1970,7 +1792,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-new_idps_by_natural_disasters_per_year:
         country: '@country_ken'
@@ -1978,7 +1799,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -1986,7 +1806,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-s_sudanese_refugee_arrivals_in_kenya_per_year:
         country: '@country_ken'
@@ -1994,7 +1813,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-s_sudanese_refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -2002,7 +1820,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-somali_refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -2010,7 +1827,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ken-sudanese_refugees_asylum_seekers_in_kenya:
         country: '@country_ken'
@@ -2018,7 +1834,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lbn-displaced_syrians_in_lebanon:
         country: '@country_lbn'
@@ -2026,7 +1841,6 @@ App\Entity\Indicator:
         organization: Government of Lebanon
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lbn-palestine_refugees_from_syria_in_lebanon:
         country: '@country_lbn'
@@ -2034,7 +1848,6 @@ App\Entity\Indicator:
         organization: Government of Lebanon
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lbn-palestine_refugees_in_lebanon:
         country: '@country_lbn'
@@ -2042,7 +1855,6 @@ App\Entity\Indicator:
         organization: Government of Lebanon
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lbn-palestinian_refugees_from_syria_in_lebanon:
         country: '@country_lbn'
@@ -2050,7 +1862,6 @@ App\Entity\Indicator:
         organization: UNRWA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lbn-people_in_need:
         country: '@country_lbn'
@@ -2093,7 +1904,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lby-migrants_in_libya:
         country: '@country_lby'
@@ -2106,7 +1916,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lby-people_assisted_through_wfp_food_assistance_per_month:
         country: '@country_lby'
@@ -2145,7 +1954,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     lby-returnees:
         country: '@country_lby'
@@ -2153,7 +1961,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
         country: '@country_mli'
@@ -2207,7 +2014,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
     mli-idps:
@@ -2216,7 +2022,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-kka_incidents_against_aid_workers_killed_kidnapped_and_arrested_per_year:
         country: '@country_mli'
@@ -2235,7 +2040,6 @@ App\Entity\Indicator:
         organization: Government of Mali
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     mli-malian_refugees_in_burkina_faso:
@@ -2244,7 +2048,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-malian_refugees_in_burkina_faso_mauritania_and_niger:
         country: '@country_mli'
@@ -2252,7 +2055,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-malian_refugees_in_mauritania:
         country: '@country_mli'
@@ -2260,7 +2062,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-malian_refugees_in_niger:
         country: '@country_mli'
@@ -2268,7 +2069,6 @@ App\Entity\Indicator:
         organization: Government of Niger
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-new_idps_by_conflict_per_year:
         country: '@country_mli'
@@ -2276,7 +2076,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-new_idps_by_natural_disasters_per_year:
         country: '@country_mli'
@@ -2284,7 +2083,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mli-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_mli'
@@ -2334,7 +2132,6 @@ App\Entity\Indicator:
         organization: Government of Mali
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mmr-children_in_need:
         country: '@country_mmr'
@@ -2349,7 +2146,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
     mmr-idps_in_kachin_northern_shan_states:
@@ -2358,7 +2154,6 @@ App\Entity\Indicator:
         organization: CCCM Cluster
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mmr-idps_in_rakhine_state:
         country: '@country_mmr'
@@ -2366,7 +2161,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mmr-myanmar_refugees_in_thailand:
         country: '@country_mmr'
@@ -2374,7 +2168,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mmr-new_idps_by_conflict_per_year:
         country: '@country_mmr'
@@ -2382,7 +2175,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mmr-new_idps_by_natural_disasters_per_year:
         country: '@country_mmr'
@@ -2390,7 +2182,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     mmr-people_assisted_with_wfp_food_assistance_per_month:
         country: '@country_mmr'
@@ -2419,7 +2210,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     moz-children_in_need:
@@ -2435,7 +2225,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     moz-new_idps_by_conflict_per_year:
         country: '@country_moz'
@@ -2443,7 +2232,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     moz-new_idps_by_natural_disasters_per_year:
         country: '@country_moz'
@@ -2451,7 +2239,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     moz-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_moz'
@@ -2503,7 +2290,6 @@ App\Entity\Indicator:
         organization: Government of Niger
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ner-malian_refugees_in_niger:
         country: '@country_ner'
@@ -2511,7 +2297,6 @@ App\Entity\Indicator:
         organization: Government of Niger
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ner-new_idps_by_conflict_per_year:
         country: '@country_ner'
@@ -2519,7 +2304,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ner-new_idps_by_natural_disasters_per_year:
         country: '@country_ner'
@@ -2527,7 +2311,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ner-nigerian_refugees_in_niger:
         country: '@country_ner'
@@ -2535,7 +2318,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ner-people_in_food_crisis_emergency_ipc_phase_3_in_lake_chad_basin_crisis_area:
         country: '@country_ner'
@@ -2636,7 +2418,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-children_in_need:
         country: '@country_nga'
@@ -2651,7 +2432,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-idps_in_north_central_north_west_nigeria:
         country: '@country_nga'
@@ -2659,7 +2439,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-kka_incidents_against_aid_workers_killed_kidnapped_and_arrested_per_year:
         country: '@country_nga'
@@ -2678,8 +2457,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_lassa_fever_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_lassa_fever'
         - '@term_theme_health'
     nga-lassa_fever_deaths_cumulative:
         country: '@country_nga'
@@ -2687,8 +2464,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_lassa_fever_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_lassa_fever'
         - '@term_theme_health'
     nga-measles_confirmed_cases_cumulative_per_year:
         country: '@country_nga'
@@ -2696,8 +2471,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     nga-measles_deaths_cumulative_per_year:
         country: '@country_nga'
@@ -2705,8 +2478,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_measles'
         - '@term_theme_health'
     nga-new_idps_by_conflict_per_year:
         country: '@country_nga'
@@ -2714,7 +2485,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-new_idps_by_natural_disasters_per_year:
         country: '@country_nga'
@@ -2722,7 +2492,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-nigerian_refugees_asylum_seekers_in_chad:
         country: '@country_nga'
@@ -2730,7 +2499,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-nigerian_refugees_in_cameroon:
         country: '@country_nga'
@@ -2738,7 +2506,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-nigerian_refugees_in_niger:
         country: '@country_nga'
@@ -2746,7 +2513,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-nigerian_refugees_in_the_region:
         country: '@country_nga'
@@ -2754,7 +2520,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-northeast_nigeria_people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_nga'
@@ -2805,7 +2570,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     nga-schools_closed_due_to_insecurity:
         country: '@country_nga'
@@ -2829,8 +2593,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_lassa_fever_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_lassa_fever'
         - '@term_theme_health'
     nga-total_measles_cases_cumulative_per_year:
         country: '@country_nga'
@@ -2838,8 +2600,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     nga-total_yellow_fever_cases_cumulative_per_year:
         country: '@country_nga'
@@ -2847,8 +2607,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_yellow_fever_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_yellow_fever'
         - '@term_theme_health'
     nga-yellow_fever_confirmed_cases_cumulative_per_year:
         country: '@country_nga'
@@ -2856,8 +2614,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_yellow_fever_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_yellow_fever'
         - '@term_theme_health'
     nga-yellow_fever_deaths_cumulative_per_year:
         country: '@country_nga'
@@ -2865,8 +2621,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_yellow_fever_deaths'
-        - '@term_theme_yellow_fever'
-        - '@term_theme_disease_deaths'
         - '@term_theme_health'
     pse-children_in_need:
         country: '@country_pse'
@@ -2891,7 +2645,6 @@ App\Entity\Indicator:
         organization: UNRWA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
     pse-new_idps_by_conflict_per_year:
@@ -2900,7 +2653,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     pse-new_idps_by_natural_disasters_per_year:
         country: '@country_pse'
@@ -2908,7 +2660,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     pse-palestinian_children_injured_direct_conflict_per_year:
         country: '@country_pse'
@@ -2936,7 +2687,6 @@ App\Entity\Indicator:
         organization: UNRWA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     pse-palestinian_refugees_from_syria_in_lebanon:
         country: '@country_pse'
@@ -2944,7 +2694,6 @@ App\Entity\Indicator:
         organization: UNRWA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     pse-palestinian_refugees_in_syria:
         country: '@country_pse'
@@ -2952,7 +2701,6 @@ App\Entity\Indicator:
         organization: UNRWA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     pse-people_displaced_due_to_demolitions_per_year:
         country: '@country_pse'
@@ -2960,7 +2708,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     pse-people_in_need:
         country: '@country_pse'
@@ -3001,7 +2748,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-new_idps_by_conflict_per_year:
         country: '@country_sdn'
@@ -3009,7 +2755,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-new_idps_by_natural_disasters_per_year:
         country: '@country_sdn'
@@ -3017,7 +2762,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_sdn'
@@ -3046,7 +2790,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-refugees_of_other_nationalities_in_sudan:
         country: '@country_sdn'
@@ -3054,7 +2797,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-returnees_in_darfur:
         country: '@country_sdn'
@@ -3062,7 +2804,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-s_sudanese_refugee_arrivals_cumulative_per_year:
         country: '@country_sdn'
@@ -3070,7 +2811,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-s_sudanese_refugee_children_in_sudan_since_jan_2017:
         country: '@country_sdn'
@@ -3080,14 +2820,12 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_refugees'
-        - '@term_theme_displacement'
     sdn-sudanese_refugees_and_asylum_seekers_in_ethiopia:
         country: '@country_sdn'
         name: Sudanese Refugees and Asylum-seekers in Ethiopia
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-sudanese_refugees_asylum_seekers_in_chad:
         country: '@country_sdn'
@@ -3095,7 +2833,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-sudanese_refugees_asylum_seekers_in_kenya:
         country: '@country_sdn'
@@ -3103,7 +2840,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-sudanese_refugees_in_egypt:
         country: '@country_sdn'
@@ -3111,7 +2847,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-sudanese_refugees_in_jordan:
         country: '@country_sdn'
@@ -3119,7 +2854,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-sudanese_refugees_in_south_sudan:
         country: '@country_sdn'
@@ -3127,7 +2861,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     sdn-total_s_sudanese_refugees_in_sudan:
         country: '@country_sdn'
@@ -3135,7 +2868,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-acutely_malnourished_children_below_5:
         country: '@country_som'
@@ -3184,8 +2916,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     som-awd_cholera_deaths_since_dec_2017:
         country: '@country_som'
@@ -3193,8 +2923,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     som-children_in_need:
         country: '@country_som'
@@ -3209,7 +2937,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-idps:
         country: '@country_som'
@@ -3217,7 +2944,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-internally_displaced_due_to_conflict_insecurity_per_month:
         country: '@country_som'
@@ -3225,7 +2951,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-internally_displaced_due_to_conflict_insecurity_per_year:
         country: '@country_som'
@@ -3233,7 +2958,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-internally_displaced_due_to_drought_per_month:
         country: '@country_som'
@@ -3241,7 +2965,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-internally_displaced_due_to_drought_per_year:
         country: '@country_som'
@@ -3249,7 +2972,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-internally_displaced_due_to_floods_per_month:
         country: '@country_som'
@@ -3257,7 +2979,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-internally_displaced_due_to_floods_per_year:
         country: '@country_som'
@@ -3265,7 +2986,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
         country: '@country_som'
@@ -3284,7 +3004,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-new_idps_by_natural_disasters_per_year:
         country: '@country_som'
@@ -3292,7 +3011,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_som'
@@ -3328,7 +3046,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugee_assisted_spontaneous_returns_from_yemen_per_month:
         country: '@country_som'
@@ -3336,7 +3053,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugee_assisted_spontaneous_returns_from_yemen_per_year:
@@ -3345,7 +3061,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugee_returnees_from_kenya_cumulative_since_2014:
@@ -3354,7 +3069,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugee_returnees_from_kenya_per_month:
@@ -3363,7 +3077,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugee_returnees_from_kenya_per_year:
@@ -3372,7 +3085,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugee_returnees_since_2014:
@@ -3381,7 +3093,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugee_returnees_with_assistance_from_unhcr_per_year:
@@ -3390,7 +3101,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-somali_refugees_asylum_seekers_in_ethiopia:
@@ -3399,7 +3109,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_asylum_seekers_in_kenya:
         country: '@country_som'
@@ -3407,7 +3116,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_asylum_seekers_in_uganda:
         country: '@country_som'
@@ -3415,7 +3123,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_asylum_seekers_in_yemen:
         country: '@country_som'
@@ -3423,7 +3130,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_asylum_seekers_in_zambia:
         country: '@country_som'
@@ -3431,7 +3137,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_in_djibouti:
         country: '@country_som'
@@ -3439,7 +3144,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_in_eritrea:
         country: '@country_som'
@@ -3447,7 +3151,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_in_the_horn_of_africa_yemen:
         country: '@country_som'
@@ -3455,7 +3158,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-somali_refugees_voluntary_repatriated_from_yemen_under_the_assisted_spontaneous_return_programme_cumulative:
         country: '@country_som'
@@ -3464,7 +3166,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_returnees'
     som-total_internal_displacements_per_month:
@@ -3473,7 +3174,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-total_internal_displacements_per_year:
         country: '@country_som'
@@ -3481,7 +3181,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-voluntary_assisted_returns_from_dadaab_since_dec_2014:
         country: '@country_som'
@@ -3489,7 +3188,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     som-yemeni_refugees_asylum_seekers_in_somalia:
         country: '@country_som'
@@ -3497,7 +3195,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-acutely_malnourished_children:
         country: '@country_ssd'
@@ -3546,7 +3243,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-children_in_need:
         country: '@country_ssd'
@@ -3566,7 +3262,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-ethiopian_refugees_in_south_sudan:
         country: '@country_ssd'
@@ -3574,7 +3269,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-humanitarian_access_incidents_per_month:
         country: '@country_ssd'
@@ -3589,7 +3283,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-idps_in_bentiu_poc:
         country: '@country_ssd'
@@ -3597,7 +3290,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
         country: '@country_ssd'
@@ -3616,7 +3308,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-new_idps_by_natural_disasters_per_year:
         country: '@country_ssd'
@@ -3624,7 +3315,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_ssd'
@@ -3672,7 +3362,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_drc_cumulative_per_year:
         country: '@country_ssd'
@@ -3680,7 +3369,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_ethiopia_per_year:
         country: '@country_ssd'
@@ -3688,7 +3376,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_gambella_per_month:
         country: '@country_ssd'
@@ -3696,7 +3383,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_gambella_per_year:
         country: '@country_ssd'
@@ -3704,7 +3390,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_kenya_per_year:
         country: '@country_ssd'
@@ -3712,7 +3397,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_sudan_cumulative_per_year:
         country: '@country_ssd'
@@ -3720,7 +3404,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_the_region_cumulative_per_year:
         country: '@country_ssd'
@@ -3728,7 +3411,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_uganda_per_month:
         country: '@country_ssd'
@@ -3736,7 +3418,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_arrivals_in_uganda_per_year:
         country: '@country_ssd'
@@ -3744,7 +3425,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugee_children_in_sudan_since_jan_2017:
         country: '@country_ssd'
@@ -3754,14 +3434,12 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_refugees'
-        - '@term_theme_displacement'
     ssd-s_sudanese_refugees_asylum_seekers_in_ethiopia:
         country: '@country_ssd'
         name: S. Sudanese Refugees & Asylum-Seekers in Ethiopia
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugees_asylum_seekers_in_kenya:
         country: '@country_ssd'
@@ -3769,7 +3447,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugees_in_drc:
         country: '@country_ssd'
@@ -3777,7 +3454,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugees_in_egypt:
         country: '@country_ssd'
@@ -3785,7 +3461,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugees_in_gambella:
         country: '@country_ssd'
@@ -3793,7 +3468,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugees_in_the_region:
         country: '@country_ssd'
@@ -3801,7 +3475,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-s_sudanese_refugees_in_uganda:
         country: '@country_ssd'
@@ -3809,7 +3482,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-sudanese_refugees_in_south_sudan:
         country: '@country_ssd'
@@ -3817,7 +3489,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ssd-total_s_sudanese_refugees_in_sudan:
         country: '@country_ssd'
@@ -3825,7 +3496,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
         country: '@country_syr'
@@ -3866,7 +3536,6 @@ App\Entity\Indicator:
         terms:
         - '@term_health_facilities_attacks'
         - '@term_theme_safety_and_security'
-        - '@term_theme_health'
     syr-attacks_on_health_care_killed_per_year:
         country: '@country_syr'
         name: 'Attacks on Health Care: Killed (per year)'
@@ -3874,7 +3543,6 @@ App\Entity\Indicator:
         terms:
         - '@term_health_facilities_attacks'
         - '@term_theme_safety_and_security'
-        - '@term_theme_health'
     syr-border_crossings_into_iraq_since_the_commencement_of_the_military_operation_in_northeastern_syria_cumulative:
         country: '@country_syr'
         name: Border Crossings into Iraq since the Commencement of the Military Operation
@@ -3895,7 +3563,6 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
-        - '@term_theme_displacement'
     syr-children_in_need:
         country: '@country_syr'
         name: Children in Need
@@ -3909,7 +3576,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-idp_departures_in_north_west_syria_per_month:
         country: '@country_syr'
@@ -3917,7 +3583,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-idp_movements_per_month:
         country: '@country_syr'
@@ -3925,7 +3590,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-idp_movements_per_year:
         country: '@country_syr'
@@ -3933,7 +3597,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-idp_spontaneous_returns_per_month:
         country: '@country_syr'
@@ -3941,7 +3604,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
     syr-idp_spontaneous_returns_per_year:
@@ -3950,7 +3612,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
     syr-idps:
@@ -3959,7 +3620,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-internally_displaced_palestinian_refugees_in_syria:
         country: '@country_syr'
@@ -3967,7 +3627,6 @@ App\Entity\Indicator:
         organization: UNRWA
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
         - '@term_idps'
     syr-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
@@ -3987,7 +3646,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-new_idps_by_natural_disasters_per_year:
         country: '@country_syr'
@@ -3995,7 +3653,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-people_displaced_in_northwestern_syria_since_dec_2019:
         country: '@country_syr'
@@ -4003,7 +3660,6 @@ App\Entity\Indicator:
         organization: OCHA
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_syr'
@@ -4041,14 +3697,12 @@ App\Entity\Indicator:
         - '@term_children_in_need'
         - '@term_theme_protection_and_human_rights'
         - '@term_refugees'
-        - '@term_theme_displacement'
     syr-registered_syrian_refugees_in_the_region:
         country: '@country_syr'
         name: Registered Syrian Refugees in the Region
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-syrian_refugees_in_egypt:
         country: '@country_syr'
@@ -4056,7 +3710,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-syrian_refugees_in_iraq:
         country: '@country_syr'
@@ -4064,7 +3717,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-syrian_refugees_in_jordan:
         country: '@country_syr'
@@ -4072,7 +3724,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-syrian_refugees_in_lebanon:
         country: '@country_syr'
@@ -4080,7 +3731,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-syrian_refugees_in_turkey:
         country: '@country_syr'
@@ -4088,7 +3738,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-syrian_refugees_in_zaatari_camp:
         country: '@country_syr'
@@ -4096,7 +3745,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     syr-total_attacks_on_health_care_per_year:
         country: '@country_syr'
@@ -4105,14 +3753,12 @@ App\Entity\Indicator:
         terms:
         - '@term_health_facilities_attacks'
         - '@term_theme_safety_and_security'
-        - '@term_theme_health'
     tcd-car_refugees_asylum_seekers_in_chad:
         country: '@country_tcd'
         name: CAR Refugees & Asylum-Seekers in Chad
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-children_acutely_malnourished:
         country: '@country_tcd'
@@ -4136,7 +3782,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-measles_confirmed_cases_per_year:
         country: '@country_tcd'
@@ -4144,8 +3789,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     tcd-measles_deaths_per_year:
         country: '@country_tcd'
@@ -4153,8 +3796,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_measles'
         - '@term_theme_health'
     tcd-new_idps_by_conflict_per_year:
         country: '@country_tcd'
@@ -4162,7 +3803,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-new_idps_by_natural_disasters_per_year:
         country: '@country_tcd'
@@ -4170,7 +3810,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-nigerian_refugees_asylum_seekers_in_chad:
         country: '@country_tcd'
@@ -4178,7 +3817,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-people_assisted_with_wfp_food_assistance_per_month:
         country: '@country_tcd'
@@ -4229,7 +3867,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-schools_closed_due_to_insecurity:
         country: '@country_tcd'
@@ -4253,7 +3890,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     tcd-total_measles_cases_per_year:
         country: '@country_tcd'
@@ -4261,8 +3897,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_measles_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_measles'
         - '@term_theme_health'
     ukr-children_in_need:
         country: '@country_ukr'
@@ -4317,7 +3951,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ukr-people_in_need:
         country: '@country_ukr'
@@ -4374,7 +4007,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_in_brazil:
         country: '@country_ven'
@@ -4382,7 +4014,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_in_colombia:
         country: '@country_ven'
@@ -4390,7 +4021,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_in_costa_rica:
         country: '@country_ven'
@@ -4398,7 +4028,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_in_guyana:
         country: '@country_ven'
@@ -4406,7 +4035,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_in_panama:
         country: '@country_ven'
@@ -4414,7 +4042,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_in_peru:
         country: '@country_ven'
@@ -4422,7 +4049,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelan_refugees_and_migrants_trinidad_and_tobago:
         country: '@country_ven'
@@ -4430,7 +4056,6 @@ App\Entity\Indicator:
         organization: R4V
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     ven-venezuelans_in_latin_america_and_the_caribbean:
         country: '@country_ven'
@@ -4491,8 +4116,6 @@ App\Entity\Indicator:
         organization: Government of Yemen
         terms:
         - '@term_cholera_deaths'
-        - '@term_theme_disease_deaths'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     yem-cholera_suspected_cases_since_jan_2018:
         country: '@country_yem'
@@ -4500,8 +4123,6 @@ App\Entity\Indicator:
         organization: WHO
         terms:
         - '@term_cholera_cases'
-        - '@term_theme_disease_cases'
-        - '@term_theme_cholera'
         - '@term_theme_health'
     yem-idps_in_2019_cumulative:
         country: '@country_yem'
@@ -4509,7 +4130,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-idps_since_march_2015:
         country: '@country_yem'
@@ -4517,7 +4137,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-kka_incidents_against_aid_workers_killed_kidnapped_and_arrested_per_year:
         country: '@country_yem'
@@ -4536,7 +4155,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-new_idps_by_natural_disasters_per_year:
         country: '@country_yem'
@@ -4544,7 +4162,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-people_assisted_through_wfp_assistance_per_month:
         country: '@country_yem'
@@ -4580,7 +4197,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-returnees:
         country: '@country_yem'
@@ -4588,7 +4204,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-returnees_since_sep_2019:
         country: '@country_yem'
@@ -4596,7 +4211,6 @@ App\Entity\Indicator:
         organization: IOM
         terms:
         - '@term_returnees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-somali_refugees_asylum_seekers_in_yemen:
         country: '@country_yem'
@@ -4604,7 +4218,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-yemeni_refugees_and_asylum_seekers_in_ethiopia:
         country: '@country_yem'
@@ -4612,7 +4225,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-yemeni_refugees_asylum_seekers_in_somalia:
         country: '@country_yem'
@@ -4620,7 +4232,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     yem-yemeni_refugees_in_jordan:
         country: '@country_yem'
@@ -4628,7 +4239,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     zwe-children_in_need:
         country: '@country_zwe'
@@ -4643,7 +4253,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     zwe-mozambican_asylum_seekers_in_zimbabwe:
         country: '@country_zwe'
@@ -4651,7 +4260,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     zwe-new_idps_by_natural_disasters_per_year:
         country: '@country_zwe'
@@ -4659,7 +4267,6 @@ App\Entity\Indicator:
         organization: IDMC
         terms:
         - '@term_idps'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     zwe-people_in_food_crisis_emergency_ipc_phase_3:
         country: '@country_zwe'
@@ -4681,7 +4288,6 @@ App\Entity\Indicator:
         organization: UNHCR
         terms:
         - '@term_refugees'
-        - '@term_theme_displacement'
         - '@term_theme_protection_and_human_rights'
     zwe-total_people_in_need:
         country: '@country_zwe'
