@@ -246,7 +246,7 @@ def create_new_value(input_line, indicator_ref_in):
 
     values_yaml[indicator_ref_in + '-' + str(values_count)] = {'value': int(value_figure),
                                                                'date': r"<(\DateTime::createFromFormat('Y-m-d', '" + value_date + r"'))>",
-                                                               'sourceURL': str(value_url) + '',
+                                                               'sourceUrl': str(value_url) + '',
                                                                'indicator': '@' + indicator_ref_in}
     values_count = values_count + 1
 
@@ -272,6 +272,7 @@ print("DEBUG: Just got the CSV file")
 vocabularies_list = create_vocabularies()
 
 # skip headers and print
+print("DEBUG: First line of CSV file -- check if it's right")
 print(next(csvfile))
 
 # for i in range(1000):
@@ -313,7 +314,9 @@ with open('040-indicator.yaml', 'w') as f:
     f.write(indicators_str)
 
 with open('050-indicator_value.yaml', 'w') as f:
-    values_yaml = {"App\Entity\IIndicatorValue": values_yaml}
+    values_yaml = {"App\Entity\IndicatorValue": values_yaml}
     values_str = yaml.dump(values_yaml, explicit_start=False, explicit_end=False, default_flow_style=False,
                            default_style='', indent=4)
     f.write(values_str)
+
+print("DEBUG: Finished")
