@@ -1,9 +1,11 @@
-import csv
-import urllib.request
 import codecs
-import yaml
+import csv
 import re
+import urllib.request
 
+import yaml
+
+term_with_multiple_parents = False  # global variable for creating one or multiple parents for each term
 countries = {}  # [term_code]: id, code, name
 country_yaml = {}
 countries_count = 1
@@ -47,72 +49,81 @@ def create_vocabularies():
     # to add list of keywords to look for:
     # {("school", "close"), ("school", "not", "function")}
     global vocabularies_list
+    global term_with_multiple_parents
+
     vocabularies_list = {
         # term_id : (name, themes, keywords)
-        "term_acutely_malnourished_children": ("Acutely malnourished children", {"Nutrition"}, {("child", "maln")}),
+        "term_acutely_malnourished_children": ("Acutely malnourished children", ["Nutrition"], {("child", "maln")}),
         "term_acutely_malnourished_pregnant_women": (
-            "Pregnant or Lactating Acutely Malnourished Women", {"Nutrition"}, {("pregnan", "maln")}),
+            "Pregnant or Lactating Acutely Malnourished Women", ["Nutrition"], {("pregnan", "maln")}),
 
         "term_children_in_need": (
-            "Children in need", {"Protection and Human Rights"}, {("child", "need"), ("child", "")}),
-        "term_people_in_need": ("People in need", {"Protection and Human Rights"}, {("people", "need")}),
+            "Children in need", ["Protection and Human Rights"], {("child", "need"), ("child", "")}),
+        "term_people_in_need": ("People in need", ["Protection and Human Rights"], {("people", "need")}),
         "term_people_targeted_for_assistance": (
-            "People targeted for assistance", {"Protection and Human Rights"}, {("people", "target")}),
+            "People targeted for assistance", ["Protection and Human Rights"], {("people", "target")}),
         "term_refugees": (
-            "Refugess", {"Protection and Human Rights", "Displacement"}, {("ref", ""), ("asylum", "seek")}),
-        "term_returnees": ("Returness", {"Protection and Human Rights", "Displacement"}, {("ret", "")}),
-        "term_idps": ("IDPs", {"Protection and Human Rights", "Displacement"}, {("idp", ""), ("displace", "")}),
+            "Refugess", ["Protection and Human Rights", "Displacement"], {("ref", ""), ("asylum", "seek")}),
+        "term_returnees": ("Returness", ["Protection and Human Rights", "Displacement"], {("ret", "")}),
+        "term_idps": ("IDPs", ["Protection and Human Rights", "Displacement"], {("idp", ""), ("displace", "")}),
 
         "term_humanitarian_access_incidents": (
-            "Humanitarian acess incidents", {"Safety and Security"}, {("access", "incident")}),
-        "term_security_incidents": ("Security incidents", {"Safety and Security"}, {("secur", "incident")}),
-        "term_civilians_attacks": ("Civilians - Attacks", {"Safety and Security"}, {("civ", "attack")}),
-        "term_civilians_incidents": ("Civilians - Incidents", {"Safety and Security"}, {("civ", "incident")}),
-        "term_civilians_killed": ("Civilians - Killed", {"Safety and Security"}, {("civ", "kill")}),
-        "term_civilians_injured": ("Civilians - Injured", {"Safety and Security"}, {("civ", "injur")}),
+            "Humanitarian acess incidents", ["Safety and Security"], {("access", "incident")}),
+        "term_security_incidents": ("Security incidents", ["Safety and Security"], {("secur", "incident")}),
+        "term_civilians_attacks": ("Civilians - Attacks", ["Safety and Security"], {("civ", "attack")}),
+        "term_civilians_incidents": ("Civilians - Incidents", ["Safety and Security"], {("civ", "incident")}),
+        "term_civilians_killed": ("Civilians - Killed", ["Safety and Security"], {("civ", "kill")}),
+        "term_civilians_injured": ("Civilians - Injured", ["Safety and Security"], {("civ", "injur")}),
         # Killed and Injured  + Injured and Injuries
 
-        "term_civilians_deaths": ("Civilians - Deaths", {"Safety and Security"}, {("civ", "death"), ("civ", "dead"), }),
+        "term_civilians_deaths": ("Civilians - Deaths", ["Safety and Security"], {("civ", "death"), ("civ", "dead"), }),
         "term_aid_workers_kka_incidents": (
-            "Aid workers - KKA incidents", {"Safety and Security"}, {("aid", "work", "kka")}),
-        "term_aid_workers_arrested": ("Aid workers - Arrested", {"Safety and Security"}, {("aid", "work", "arrest")}),
-        "term_aid_workers_kidnapped": ("Aid workers - Kidnapped", {"Safety and Security"}, {("aid", "work", "kidnap")}),
-        "term_aid_workers_killed": ("Aid workers - Killed", {"Safety and Security"}, {("aid", "work", "kill")}),
+            "Aid workers - KKA incidents", ["Safety and Security"], {("aid", "work", "kka")}),
+        "term_aid_workers_arrested": ("Aid workers - Arrested", ["Safety and Security"], {("aid", "work", "arrest")}),
+        "term_aid_workers_kidnapped": ("Aid workers - Kidnapped", ["Safety and Security"], {("aid", "work", "kidnap")}),
+        "term_aid_workers_killed": ("Aid workers - Killed", ["Safety and Security"], {("aid", "work", "kill")}),
 
         "term_health_facilities_injuries": (
-            "Health facilities - Injuries", {"Safety and Security", "Health"}, {("health", "facilit", "injur")}),
+            "Health facilities - Injuries", ["Safety and Security", "Health"], {("health", "facilit", "injur")}),
         "term_health_facilities_kill": (
-            "Health facilities - Killed", {"Safety and Security", "Health"}, {("health", "facilit", "kill")}),
+            "Health facilities - Killed", ["Safety and Security", "Health"], {("health", "facilit", "kill")}),
         "term_health_facilities_attacks": (
-            "Health facilities - Attacks", {"Safety and Security", "Health"},
+            "Health facilities - Attacks", ["Safety and Security", "Health"],
             {("health", "facilit", "attack"), ("health", "care", "attack")}),
         "term_health_facilities_closed": (
-            "Health facilities - Closed", {"Health"}, {("health", "facilit", "close"), ("health", "centre", "close")}),
-        "term_cholera_cases": ("Cholera cases", {"Health", "Cholera", "Disease cases"}, {("cholera", "case")}),
-        "term_cholera_deaths": ("Cholera deaths", {"Health", "Cholera", "Disease deaths"}, {("cholera", "death")}),
-        "term_ebola_cases": ("Ebola cases", {"Health", "Ebola", "Disease cases"}, {("ebola", "case")}),
-        "term_ebola_deaths": ("Ebola deaths", {"Health", "Ebola", "Disease deaths"}, {("ebola", "death")}),
+            "Health facilities - Closed", ["Health"], {("health", "facilit", "close"), ("health", "centre", "close")}),
+        "term_cholera_cases": ("Cholera cases", ["Health", "Cholera", "Disease cases"], {("cholera", "case")}),
+        "term_cholera_deaths": ("Cholera deaths", ["Health", "Cholera", "Disease deaths"], {("cholera", "death")}),
+        "term_ebola_cases": ("Ebola cases", ["Health", "Ebola", "Disease cases"], {("ebola", "case")}),
+        "term_ebola_deaths": ("Ebola deaths", ["Health", "Ebola", "Disease deaths"], {("ebola", "death")}),
         "term_lassa_fever_cases": (
-            "Lassa fever cases", {"Health", "Lassa fever", "Disease cases"}, {("lassa", "case")}),
+            "Lassa fever cases", ["Health", "Lassa fever", "Disease cases"], {("lassa", "case")}),
         "term_lassa_fever_deaths": (
-            "Lassa fever deaths", {"Health", "Lassa fever", "Disease deaths"}, {("lassa", "death")}),
-        "term_malaria_cases": ("Malaria cases", {"Health", "Malaria", "Disease cases"}, {("malaria", "case")}),
-        "term_malaria_deaths": ("Malaria deaths", {"Health", "Malaria", "Disease deaths"}, {("malaria", "death")}),
-        "term_measles_cases": ("Measles cases", {"Health", "Measles", "Disease cases"}, {("measles", "case")}),
-        "term_measles_deaths": ("Measles deaths", {"Health", "Measles", "Disease deaths"}, {("measles", "death")}),
+            "Lassa fever deaths", ["Health", "Lassa fever", "Disease deaths"], {("lassa", "death")}),
+        "term_malaria_cases": ("Malaria cases", ["Health", "Malaria", "Disease cases"], {("malaria", "case")}),
+        "term_malaria_deaths": ("Malaria deaths", ["Health", "Malaria", "Disease deaths"], {("malaria", "death")}),
+        "term_measles_cases": ("Measles cases", ["Health", "Measles", "Disease cases"], {("measles", "case")}),
+        "term_measles_deaths": ("Measles deaths", ["Health", "Measles", "Disease deaths"], {("measles", "death")}),
         "term_yellow_fever_cases": (
-            "Yellow fever cases", {"Health", "Yellow fever", "Disease cases"}, {("yellow", "case")}),
+            "Yellow fever cases", ["Health", "Yellow fever", "Disease cases"], {("yellow", "case")}),
         "term_yellow_fever_deaths": (
-            "Yellow fever deaths", {"Health", "Yellow fever", "Disease deaths"}, {("yellow", "death")}),
+            "Yellow fever deaths", ["Health", "Yellow fever", "Disease deaths"], {("yellow", "death")}),
 
-        "term_schools_closed": ("Schools - Closed", {"Education"}, {("school", "close")}),
-        "term_schools_damaged": ("Schools - Damaged", {"Education"}, {("school", "damage")}),
-        "term_students_affected_by_closure_of_schools": ("Students affected", {"Education"}, {("student", "closure")}),
+        "term_schools_closed": ("Schools - Closed", ["Education"], {("school", "close")}),
+        "term_schools_damaged": ("Schools - Damaged", ["Education"], {("school", "damage")}),
+        "term_students_affected_by_closure_of_schools": ("Students affected", ["Education"], {("student", "closure")}),
 
         "term_food_insecure_people": (
-            "Food insecure people", {"Food"}, {("food", "insecur"), ("people", "food", "crisis"), ("ipc", "3")}),
-        "term_people_assisted_wfp": ("People assisted - WFP", {"Food"}, {("assist", "wfp")})
+            "Food insecure people", ["Food"], {("food", "insecur"), ("people", "food", "crisis"), ("ipc", "3")}),
+        "term_people_assisted_wfp": ("People assisted - WFP", ["Food"], {("assist", "wfp")})
     }
+
+    if not term_with_multiple_parents:
+        # get only the first parent
+        for k in vocabularies_list:
+            item = vocabularies_list[k][1][0]
+            vocabularies_list[k][1].clear()
+            vocabularies_list[k][1].append(item)
 
     global vocabularies_yaml
     global terms_yaml
@@ -127,16 +138,26 @@ def create_vocabularies():
         tag_machine_name = create_machine_name(tag_name)
         tag_themes = item[1][1]
         tag_keywords = item[1][2]
-        tag_themes_ref = []
 
-        for theme in tag_themes:
+        if term_with_multiple_parents:
+            tag_themes_ref = []
+            for theme in tag_themes:
+                theme_name = theme
+                theme_machine_name = create_machine_name(theme_name)
+                theme_ref = "term_theme_" + theme_machine_name
+                if terms_yaml.get(theme_ref, "") == "":
+                    terms_yaml[theme_ref] = {"name": theme_machine_name, "label": theme_name,
+                                             "vocabulary": "@vocabulary_theme", }
+                tag_themes_ref.append("@" + theme_ref)
+        else:
+            theme = tag_themes[0]
             theme_name = theme
             theme_machine_name = create_machine_name(theme_name)
             theme_ref = "term_theme_" + theme_machine_name
             if terms_yaml.get(theme_ref, "") == "":
                 terms_yaml[theme_ref] = {"name": theme_machine_name, "label": theme_name,
                                          "vocabulary": "@vocabulary_theme", }
-            tag_themes_ref.append("@" + theme_ref)
+            tag_themes_ref = "@" + theme_ref
 
         terms_yaml[tag_ref] = {"name": tag_machine_name,
                                "label": tag_name,
@@ -165,7 +186,6 @@ def search_terms_ref(theme_name):
 
 def assign_terms(indicator_name):
     indicator_terms = []
-
     indicator_name = indicator_name.lower()
     for tag in vocabularies_list.items():
         tag_ref = tag[0]
