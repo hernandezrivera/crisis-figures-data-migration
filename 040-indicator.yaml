@@ -1,0 +1,4699 @@
+App\Entity\Indicator:
+    afg-afghan_refugees_in_turkey:
+        country: '@country_afg'
+        name: Afghan Refugees in Turkey
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_afg'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    afg-aid_workers_arrested_per_year:
+        country: '@country_afg'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    afg-aid_workers_kidnapped_per_year:
+        country: '@country_afg'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    afg-aid_workers_killed_per_year:
+        country: '@country_afg'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    afg-children_in_need:
+        country: '@country_afg'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    afg-civilians_injured_per_year:
+        country: '@country_afg'
+        name: Civilians Injured (per year)
+        organization: UNAMA
+        terms:
+        - '@term_civilians_injured'
+        - '@term_theme_safety_and_security'
+    afg-civilians_killed_and_injured_per_year:
+        country: '@country_afg'
+        name: Civilians Killed and Injured (per year)
+        organization: UNAMA
+        terms:
+        - '@term_civilians_killed'
+        - '@term_theme_safety_and_security'
+        - '@term_civilians_injured'
+    afg-civilians_killed_per_year:
+        country: '@country_afg'
+        name: Civilians Killed (per year)
+        organization: UNAMA
+        terms:
+        - '@term_civilians_killed'
+        - '@term_theme_safety_and_security'
+    afg-conflict_induced_displacements_per_year:
+        country: '@country_afg'
+        name: Conflict-Induced Displacements (per year)
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_afg'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    afg-new_idps_by_conflict_per_year:
+        country: '@country_afg'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-new_idps_by_natural_disasters_per_year:
+        country: '@country_afg'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_afg'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    afg-people_in_need:
+        country: '@country_afg'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    afg-people_targeted_for_assistance:
+        country: '@country_afg'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    afg-registered_afghan_refugees_in_pakistan:
+        country: '@country_afg'
+        name: Registered Afghan Refugees in Pakistan
+        organization: OCHA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-registered_afghan_returnees_from_pakistan_per_year:
+        country: '@country_afg'
+        name: Registered Afghan Returnees from Pakistan (per year)
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-returnees_from_iran_per_year:
+        country: '@country_afg'
+        name: Returnees from Iran (per year)
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-returnees_from_pakistan_per_year:
+        country: '@country_afg'
+        name: Returnees from Pakistan (per year)
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-undocumented_afghan_returnees_from_iran_per_year:
+        country: '@country_afg'
+        name: Undocumented Afghan Returnees from Iran (per year)
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    afg-undocumented_afghan_returnees_from_pakistan_per_year:
+        country: '@country_afg'
+        name: Undocumented Afghan Returnees from Pakistan (per year)
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bdi-children_in_need:
+        country: '@country_bdi'
+        name: Children in Need
+        organization: OCHA
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bdi-drc_refugees_in_burundi:
+        country: '@country_bdi'
+        name: DRC Refugees in Burundi
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bdi-idps:
+        country: '@country_bdi'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bdi-malaria_deaths_in_2019:
+        country: '@country_bdi'
+        name: Malaria Deaths (in 2019)
+        organization: WHO
+        terms:
+        - '@term_malaria_deaths'
+        - '@term_theme_malaria'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_health'
+    bdi-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_bdi'
+        name: People in Food Crisis/Emergency (IPC Phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    bdi-people_in_need:
+        country: '@country_bdi'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bdi-people_targeted_for_assistance:
+        country: '@country_bdi'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    bdi-total_malaria_cases_in_2019:
+        country: '@country_bdi'
+        name: Total Malaria Cases (in 2019)
+        organization: WHO
+        terms:
+        - '@term_malaria_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_malaria'
+        - '@term_theme_health'
+    bfa-children_idps:
+        country: '@country_bfa'
+        name: Children IDPs
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+        - '@term_theme_displacement'
+    bfa-children_in_need:
+        country: '@country_bfa'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bfa-health_centres_closed:
+        country: '@country_bfa'
+        name: Health Centres Closed
+        organization: OCHA
+        terms:
+        - '@term_health_facilities_closed'
+        - '@term_theme_health'
+    bfa-health_centres_with_reduced_service:
+        country: '@country_bfa'
+        name: Health Centres with Reduced Service
+        organization: OCHA
+        terms: []
+    bfa-idps:
+        country: '@country_bfa'
+        name: IDPs
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bfa-malian_refugees_in_burkina_faso:
+        country: '@country_bfa'
+        name: Malian Refugees in Burkina Faso
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bfa-people_affected_by_closure_of_health_centres:
+        country: '@country_bfa'
+        name: People Affected by Closure of Health Centres
+        organization: OCHA
+        terms: []
+    bfa-people_assisted_with_wfp_food_assistance_per_month:
+        country: '@country_bfa'
+        name: People Assisted with WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    bfa-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_bfa'
+        name: People in Food Crisis/Emergency (IPC Phase 3+)
+        organization: CILSS
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    bfa-people_in_need:
+        country: '@country_bfa'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bfa-people_in_need_of_food_security_assistance:
+        country: '@country_bfa'
+        name: People in Need of Food Security Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bfa-people_in_need_of_nutrition_assistance:
+        country: '@country_bfa'
+        name: People in Need of Nutrition Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bfa-people_targeted_for_assistance:
+        country: '@country_bfa'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    bfa-refugees_in_burkina_faso:
+        country: '@country_bfa'
+        name: Refugees in Burkina Faso
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bfa-schools_closed_due_to_insecurity:
+        country: '@country_bfa'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    bfa-security_incidents_per_month:
+        country: '@country_bfa'
+        name: Security Incidents (per month)
+        organization: OCHA
+        terms:
+        - '@term_security_incidents'
+        - '@term_theme_safety_and_security'
+    bfa-students_affected_by_closure_of_schools:
+        country: '@country_bfa'
+        name: Students Affected by Closure of Schools
+        organization: OCHA
+        terms:
+        - '@term_students_affected_by_closure_of_schools'
+        - '@term_theme_education'
+    bgd-newly_arrived_children_from_myanmar_in_need_of_humanitarian_assistance:
+        country: '@country_bgd'
+        name: Newly Arrived Children from Myanmar in Need of Humanitarian Assistance
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bgd-people_targeted_for_assistance_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: People Targeted for Assistance in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_assisted_with_wfp_food_aid_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees Assisted with WFP Food Aid in Cox's Bazar
+        organization: WFP
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    bgd-refugees_in_camp_14_hakimpara_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 14 (Hakimpara) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_15_jamtoli_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 15 (Jamtoli) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_16_bagghona_potibonia_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 16 (Bagghona/Potibonia) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_21_chakmarkul_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 21 (Chakmarkul) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_22_unchiprang_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 22 (Unchiprang) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_23_shamlapur_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 23 (Shamlapur) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_24_leda_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 24 (Leda) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_25_ali_khali_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 25 (Ali Khali) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_26_nayapara_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 26 (Nayapara) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_camp_27_jadimura_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Camp 27 (Jadimura) in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_kutupalong_expansion_site_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Kutupalong Expansion Site in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-refugees_in_kutupalong_rc_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Refugees in Kutupalong RC in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-rohingya_children_in_need:
+        country: '@country_bgd'
+        name: Rohingya Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    bgd-rohingya_refugees_in_need:
+        country: '@country_bgd'
+        name: Rohingya Refugees in Need
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    bgd-total_rohingya_refugees_in_cox_s_bazar:
+        country: '@country_bgd'
+        name: Total Rohingya Refugees in Cox's Bazar
+        organization: ISCG
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_caf'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    caf-aid_workers_arrested_per_year:
+        country: '@country_caf'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    caf-aid_workers_kidnapped_per_year:
+        country: '@country_caf'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    caf-aid_workers_killed_per_year:
+        country: '@country_caf'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    caf-car_refugees_asylum_seekers_in_chad:
+        country: '@country_caf'
+        name: CAR Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-car_refugees_in_cameroon:
+        country: '@country_caf'
+        name: CAR Refugees in Cameroon
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-car_refugees_in_drc:
+        country: '@country_caf'
+        name: CAR Refugees in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-car_refugees_in_south_sudan:
+        country: '@country_caf'
+        name: CAR Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-car_refugees_in_the_region:
+        country: '@country_caf'
+        name: CAR Refugees in the Region
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-car_refugees_repatriated_from_cameroon_cumulative:
+        country: '@country_caf'
+        name: CAR Refugees Repatriated from Cameroon (cumulative)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-children_in_need:
+        country: '@country_caf'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    caf-drc_refugees_asylum_seekers_in_car:
+        country: '@country_caf'
+        name: DRC Refugees & Asylum-Seekers in CAR
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-idps:
+        country: '@country_caf'
+        name: IDPs
+        organization: CMP
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-incidents_affecting_humanitarian_organisations_per_month:
+        country: '@country_caf'
+        name: Incidents Affecting Humanitarian Organisations (per month)
+        organization: OCHA
+        terms: []
+    caf-incidents_affecting_humanitarian_organisations_per_year:
+        country: '@country_caf'
+        name: Incidents Affecting Humanitarian Organisations (per year)
+        organization: OCHA
+        terms: []
+    caf-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_caf'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    caf-measles_confirmed_cases_since_jan_2019:
+        country: '@country_caf'
+        name: Measles Confirmed Cases (since Jan 2019)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    caf-measles_deaths_since_jan_2019:
+        country: '@country_caf'
+        name: Measles Deaths (since Jan 2019)
+        organization: WHO
+        terms:
+        - '@term_measles_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    caf-new_idps_by_conflict_per_year:
+        country: '@country_caf'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-new_idps_by_natural_disasters_per_year:
+        country: '@country_caf'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    caf-people_assisted_with_wfp_food_assistance_per_month:
+        country: '@country_caf'
+        name: People Assisted with WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    caf-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_caf'
+        name: People in Food Crisis/Emergency (IPC Phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    caf-people_in_need:
+        country: '@country_caf'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    caf-people_targeted_for_assistance:
+        country: '@country_caf'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    caf-schools_closed_due_to_insecurity:
+        country: '@country_caf'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    caf-total_measles_cases_since_jan_2019:
+        country: '@country_caf'
+        name: Total Measles Cases (since Jan 2019)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    cmr-cameroonian_refugees_in_nigeria:
+        country: '@country_cmr'
+        name: Cameroonian Refugees in Nigeria
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-car_refugees_in_cameroon:
+        country: '@country_cmr'
+        name: CAR Refugees in Cameroon
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-car_refugees_repatriated_from_cameroon_cumulative:
+        country: '@country_cmr'
+        name: CAR Refugees Repatriated from Cameroon (cumulative)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-children_in_need:
+        country: '@country_cmr'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    cmr-cholera_deaths_since_mar_2019:
+        country: '@country_cmr'
+        name: Cholera Deaths (since Mar 2019)
+        organization: WHO
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    cmr-confirmed_cholera_cases_since_mar_2019:
+        country: '@country_cmr'
+        name: Confirmed Cholera Cases (since Mar 2019)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    cmr-idps:
+        country: '@country_cmr'
+        name: IDPs
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-idps_in_far_north:
+        country: '@country_cmr'
+        name: IDPs in Far North
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-idps_in_north_west_south_west_regions:
+        country: '@country_cmr'
+        name: IDPs in North-West & South-West Regions
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-new_idps_by_conflict_per_year:
+        country: '@country_cmr'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-nigerian_refugees_in_cameroon:
+        country: '@country_cmr'
+        name: Nigerian Refugees in Cameroon
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-out_of_camp_refugees_in_far_north:
+        country: '@country_cmr'
+        name: Out-of-camp Refugees in Far North
+        organization: IOM
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-people_assisted_with_wfp_food_assistance_per_month:
+        country: '@country_cmr'
+        name: People Assisted with WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    cmr-people_at_food_crisis_emergency_ipc_phase_3_in_the_lake_chad_basin_crisis_area:
+        country: '@country_cmr'
+        name: People at Food Crisis/Emergency (IPC phase 3+) in the Lake Chad Basin
+            Crisis Area
+        organization: OCHA
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    cmr-people_in_need:
+        country: '@country_cmr'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    cmr-people_targeted_for_assistance:
+        country: '@country_cmr'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    cmr-refugee_asylum_seeker_arrivals_in_cameroon_per_year:
+        country: '@country_cmr'
+        name: Refugee & Asylum-Seeker Arrivals in Cameroon (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-refugees_asylum_seekers_in_cameroon:
+        country: '@country_cmr'
+        name: Refugees & Asylum-Seekers in Cameroon
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-refugees_in_far_north:
+        country: '@country_cmr'
+        name: Refugees in Far North
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-returnees:
+        country: '@country_cmr'
+        name: Returnees
+        organization: UNHCR
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-returnees_in_far_north:
+        country: '@country_cmr'
+        name: Returnees in Far North
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cmr-schools_closed_due_to_insecurity:
+        country: '@country_cmr'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    cmr-severely_malnourished_children_in_lake_chad_basin_crisis_area:
+        country: '@country_cmr'
+        name: Severely Malnourished Children in Lake Chad Basin Crisis Area
+        organization: OCHA
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    cmr-total_cholera_cases_since_mar_2019:
+        country: '@country_cmr'
+        name: Total Cholera Cases (since Mar 2019)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    cod-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_cod'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    cod-aid_workers_arrested_per_year:
+        country: '@country_cod'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    cod-aid_workers_kidnapped_per_year:
+        country: '@country_cod'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    cod-aid_workers_killed_per_year:
+        country: '@country_cod'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    cod-biometrically_registered_drc_refugees_in_angola:
+        country: '@country_cod'
+        name: Biometrically Registered DRC Refugees in Angola
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-burundian_refugees_in_drc:
+        country: '@country_cod'
+        name: Burundian Refugees in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-car_refugees_in_drc:
+        country: '@country_cod'
+        name: CAR Refugees in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-chidren_in_need:
+        country: '@country_cod'
+        name: Chidren in Need
+        organization: UNICEF
+        terms: []
+    cod-children_idps:
+        country: '@country_cod'
+        name: Children IDPs
+        organization: OCHA
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+        - '@term_theme_displacement'
+    cod-children_returnees:
+        country: '@country_cod'
+        name: Children Returnees
+        organization: OCHA
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+        - '@term_theme_displacement'
+    cod-children_with_severe_acute_malnutrition:
+        country: '@country_cod'
+        name: Children with Severe Acute Malnutrition
+        organization: UNICEF
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    cod-cholera_deaths_per_year:
+        country: '@country_cod'
+        name: Cholera Deaths (per year)
+        organization: WHO
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    cod-confirmed_measles_cases_per_year:
+        country: '@country_cod'
+        name: Confirmed Measles Cases (per year)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    cod-drc_refugee_arrivals_in_uganda_per_month:
+        country: '@country_cod'
+        name: DRC Refugee Arrivals in Uganda (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugee_arrivals_in_uganda_per_year:
+        country: '@country_cod'
+        name: DRC Refugee Arrivals in Uganda (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_asylum_seekers:
+        country: '@country_cod'
+        name: DRC Refugees & Asylum-Seekers
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_asylum_seekers_in_car:
+        country: '@country_cod'
+        name: DRC Refugees & Asylum-Seekers in CAR
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_asylum_seekers_in_kenya:
+        country: '@country_cod'
+        name: DRC Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_asylum_seekers_in_rwanda:
+        country: '@country_cod'
+        name: DRC Refugees & Asylum-Seekers in Rwanda
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_asylum_seekers_in_uganda:
+        country: '@country_cod'
+        name: DRC Refugees & Asylum-Seekers in Uganda
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_asylum_seekers_in_zambia:
+        country: '@country_cod'
+        name: DRC Refugees & Asylum-Seekers in Zambia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_burundi:
+        country: '@country_cod'
+        name: DRC Refugees in Burundi
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_malawi:
+        country: '@country_cod'
+        name: DRC Refugees in Malawi
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_republic_of_congo:
+        country: '@country_cod'
+        name: DRC Refugees in Republic of Congo
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_south_sudan:
+        country: '@country_cod'
+        name: DRC Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_southern_africa:
+        country: '@country_cod'
+        name: DRC Refugees in Southern Africa
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_tanzania:
+        country: '@country_cod'
+        name: DRC Refugees in Tanzania
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_in_zimbabwe:
+        country: '@country_cod'
+        name: DRC Refugees in Zimbabwe
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-drc_refugees_repatriated_from_angola_cumulative:
+        country: '@country_cod'
+        name: DRC Refugees Repatriated from Angola (cumulative)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-ebola_confirmed_cases_since_may_2018:
+        country: '@country_cod'
+        name: Ebola Confirmed Cases (since May 2018)
+        organization: WHO
+        terms:
+        - '@term_ebola_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_ebola'
+        - '@term_theme_health'
+    cod-ebola_deaths_since_4_apr_2018:
+        country: '@country_cod'
+        name: Ebola Deaths (since 4 Apr 2018)
+        organization: WHO
+        terms:
+        - '@term_ebola_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_ebola'
+        - '@term_theme_health'
+    cod-idps:
+        country: '@country_cod'
+        name: IDPs
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_cod'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    cod-measles_deaths_per_year:
+        country: '@country_cod'
+        name: Measles Deaths (per year)
+        organization: WHO
+        terms:
+        - '@term_measles_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    cod-new_arrivals_from_drc_in_countries_of_asylum_per_month:
+        country: '@country_cod'
+        name: New Arrivals from DRC in Countries of Asylum (per month)
+        organization: UNHCR
+        terms: []
+    cod-new_arrivals_from_drc_in_countries_of_asylum_per_year:
+        country: '@country_cod'
+        name: New Arrivals from DRC in Countries of Asylum (per year)
+        organization: UNHCR
+        terms: []
+    cod-new_idps_by_conflict_per_year:
+        country: '@country_cod'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-new_idps_by_natural_disasters_per_year:
+        country: '@country_cod'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_cod'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    cod-people_in_need:
+        country: '@country_cod'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    cod-people_received_wfp_food_assistance_per_month:
+        country: '@country_cod'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    cod-people_targeted_for_assistance:
+        country: '@country_cod'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    cod-refugees_asylum_seekers_in_drc:
+        country: '@country_cod'
+        name: Refugees & Asylum-Seekers in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-returnees:
+        country: '@country_cod'
+        name: Returnees
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-rwandan_refugees_in_drc:
+        country: '@country_cod'
+        name: Rwandan Refugees in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-rwandan_refugees_repatriated_from_drc_cumulative_per_year:
+        country: '@country_cod'
+        name: Rwandan Refugees Repatriated from DRC (cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-s_sudanese_refugee_arrivals_in_drc_cumulative_per_year:
+        country: '@country_cod'
+        name: S. Sudanese Refugee Arrivals in DRC (Cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-s_sudanese_refugees_in_drc:
+        country: '@country_cod'
+        name: S. Sudanese Refugees in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    cod-schools_closed_due_to_insecurity:
+        country: '@country_cod'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    cod-total_cholera_cases_per_year:
+        country: '@country_cod'
+        name: Total Cholera Cases (per year)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    cod-total_ebola_cases_since_may_2018:
+        country: '@country_cod'
+        name: Total Ebola Cases (since May 2018)
+        organization: WHO
+        terms:
+        - '@term_ebola_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_ebola'
+        - '@term_theme_health'
+    cod-total_measles_cases_per_year:
+        country: '@country_cod'
+        name: Total Measles Cases (per year)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    col-attacks_against_civilian_population:
+        country: '@country_col'
+        name: Attacks Against Civilian Population
+        organization: OCHA
+        terms:
+        - '@term_civilians_attacks'
+        - '@term_theme_safety_and_security'
+    col-children_in_need:
+        country: '@country_col'
+        name: Children in Need
+        organization: OCHA
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    col-idps_due_to_natural_disasters_per_year:
+        country: '@country_col'
+        name: IDPs due to Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    col-new_idps_due_to_conflict_and_violence_per_year:
+        country: '@country_col'
+        name: New IDPs due to Conflict and Violence (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    col-people_affected_by_natural_disasters:
+        country: '@country_col'
+        name: People Affected by Natural Disasters
+        organization: OCHA
+        terms: []
+    col-people_in_need:
+        country: '@country_col'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    col-people_receiving_wfp_food_assistance_per_month:
+        country: '@country_col'
+        name: People Receiving WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    col-people_targeted_for_assistance:
+        country: '@country_col'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    col-venezuelans_registered_in_colombia:
+        country: '@country_col'
+        name: Venezuelans Registered in Colombia
+        organization: Government of Colombia
+        terms: []
+    eth-children_in_need:
+        country: '@country_eth'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    eth-children_in_need_of_treatment_for_severe_acute_malnutrition:
+        country: '@country_eth'
+        name: Children in Need of Treatment for Severe Acute Malnutrition
+        organization: OCHA
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    eth-cholera_confirmed_cases_since_may_2019:
+        country: '@country_eth'
+        name: Cholera Confirmed Cases (since May 2019)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    eth-cholera_deaths_since_may_2019:
+        country: '@country_eth'
+        name: Cholera Deaths (since May 2019)
+        organization: WHO
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    eth-climate_induced_idps:
+        country: '@country_eth'
+        name: Climate Induced IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-conflict_affected_idps:
+        country: '@country_eth'
+        name: Conflict Affected IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-eritrean_refugees_asylum_seekers_in_ethiopia:
+        country: '@country_eth'
+        name: Eritrean Refugees & Asylum-Seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-idps:
+        country: '@country_eth'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-idps_by_other_factors:
+        country: '@country_eth'
+        name: IDPs by Other Factors
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-new_idps_by_conflict_per_year:
+        country: '@country_eth'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-new_idps_by_natural_disasters_per_year:
+        country: '@country_eth'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_eth'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    eth-people_in_need:
+        country: '@country_eth'
+        name: People in Need
+        organization: Government of Ethiopia
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    eth-people_received_wfp_food_assistance_per_month:
+        country: '@country_eth'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    eth-people_targeted_for_assistance:
+        country: '@country_eth'
+        name: People Targeted for Assistance
+        organization: Government of Ethiopia
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    eth-refugee_asylum_seeker_arrivals_in_ethiopia_cumulative_per_year:
+        country: '@country_eth'
+        name: Refugee & Asylum-Seeker Arrivals in Ethiopia (Cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-refugee_asylum_seeker_arrivals_in_ethiopia_per_month:
+        country: '@country_eth'
+        name: Refugee & Asylum-Seeker Arrivals in Ethiopia (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-refugees_asylum_seekers_in_ethiopia:
+        country: '@country_eth'
+        name: Refugees & Asylum-Seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-s_sudanese_refugee_arrivals_in_ethiopia_per_year:
+        country: '@country_eth'
+        name: S. Sudanese Refugee Arrivals in Ethiopia (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-s_sudanese_refugee_arrivals_in_gambella_per_month:
+        country: '@country_eth'
+        name: S. Sudanese Refugee Arrivals in Gambella (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-s_sudanese_refugee_arrivals_in_gambella_per_year:
+        country: '@country_eth'
+        name: S. Sudanese Refugee Arrivals in Gambella (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-s_sudanese_refugees_asylum_seekers_in_ethiopia:
+        country: '@country_eth'
+        name: S. Sudanese Refugees & Asylum-Seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-somali_refugees_asylum_seekers_in_ethiopia:
+        country: '@country_eth'
+        name: Somali Refugees & Asylum-Seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-sudanese_refugees_and_asylum_seekers_in_ethiopia:
+        country: '@country_eth'
+        name: Sudanese Refugees and Asylum-seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    eth-total_cholera_cases_since_may_2019:
+        country: '@country_eth'
+        name: Total Cholera Cases (since May 2019)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    eth-yemeni_refugees_and_asylum_seekers_in_ethiopia:
+        country: '@country_eth'
+        name: Yemeni Refugees and Asylum-seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    hti-children_in_need:
+        country: '@country_hti'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    hti-cholera_cases_cumulative_per_year:
+        country: '@country_hti'
+        name: Cholera Cases (Cumulative per year)
+        organization: OCHA
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    hti-cholera_cases_cumulative_since_oct_2010:
+        country: '@country_hti'
+        name: Cholera Cases (Cumulative since Oct 2010)
+        organization: OCHA
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    hti-cholera_deaths_cumulative_per_year:
+        country: '@country_hti'
+        name: Cholera Deaths (Cumulative per year)
+        organization: OCHA
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    hti-cholera_deaths_cumulative_since_oct_2010:
+        country: '@country_hti'
+        name: Cholera Deaths (Cumulative since Oct 2010)
+        organization: OCHA
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    hti-idps_due_to_2010_earthquake:
+        country: '@country_hti'
+        name: IDPs due to 2010 Earthquake
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    hti-new_idps_by_natural_disasters_per_year:
+        country: '@country_hti'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    hti-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_hti'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    hti-people_in_need:
+        country: '@country_hti'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    hti-people_targeted_for_assistance:
+        country: '@country_hti'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    irq-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_irq'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    irq-aid_workers_arrested_per_year:
+        country: '@country_irq'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    irq-aid_workers_kidnapped_per_year:
+        country: '@country_irq'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    irq-aid_workers_killed_per_year:
+        country: '@country_irq'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    irq-border_crossings_into_iraq_since_the_commencement_of_the_military_operation_in_northeastern_syria_cumulative:
+        country: '@country_irq'
+        name: Border Crossings into Iraq since the Commencement of the Military Operation
+            in Northeastern Syria (cumulative)
+        organization: IOM
+        terms: []
+    irq-border_crossings_into_iraq_since_the_commencement_of_the_military_operation_in_northeastern_syria_per_day:
+        country: '@country_irq'
+        name: Border Crossings into Iraq since the Commencement of the Military Operation
+            in Northeastern Syria (per day)
+        organization: IOM
+        terms: []
+    irq-children_in_need:
+        country: '@country_irq'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps:
+        country: '@country_irq'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_anbar_governorate:
+        country: '@country_irq'
+        name: IDPs in Anbar Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_babylon_governorate:
+        country: '@country_irq'
+        name: IDPs in Babylon Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_baghdad_governorate:
+        country: '@country_irq'
+        name: IDPs in Baghdad Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_dahuk_governorate:
+        country: '@country_irq'
+        name: IDPs in Dahuk Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_diyala_governorate:
+        country: '@country_irq'
+        name: IDPs in Diyala Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_erbil_governorate:
+        country: '@country_irq'
+        name: IDPs in Erbil Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_kerbala_governorate:
+        country: '@country_irq'
+        name: IDPs in Kerbala Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_kirkuk_governorate:
+        country: '@country_irq'
+        name: IDPs in Kirkuk Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_najaf_governorate:
+        country: '@country_irq'
+        name: IDPs in Najaf Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_ninewa_governorate:
+        country: '@country_irq'
+        name: IDPs in Ninewa Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_salah_al_din_governorate:
+        country: '@country_irq'
+        name: IDPs in Salah Al-Din Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-idps_in_sulaymaniyah_governorate:
+        country: '@country_irq'
+        name: IDPs in Sulaymaniyah Governorate
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-iraqi_refugees_in_jordan:
+        country: '@country_irq'
+        name: Iraqi Refugees in Jordan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-iraqi_refugees_in_turkey:
+        country: '@country_irq'
+        name: Iraqi Refugees in Turkey
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_irq'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    irq-new_idps_by_conflict_per_year:
+        country: '@country_irq'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-new_idps_by_natural_disasters_per_year:
+        country: '@country_irq'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-non_syrian_refugees_in_iraq:
+        country: '@country_irq'
+        name: Non-Syrian Refugees in Iraq
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-people_in_need:
+        country: '@country_irq'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    irq-people_received_wfp_food_assistance_per_month:
+        country: '@country_irq'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    irq-people_targeted_for_assistance:
+        country: '@country_irq'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    irq-returnees:
+        country: '@country_irq'
+        name: Returnees
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    irq-stateless_people:
+        country: '@country_irq'
+        name: Stateless People
+        organization: UNHCR
+        terms: []
+    irq-syrian_refugees_in_iraq:
+        country: '@country_irq'
+        name: Syrian Refugees in Iraq
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-burundian_refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: Burundian Refugees & Asylum seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-children_in_need:
+        country: '@country_ken'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ken-dadaab_camps_refugee_population:
+        country: '@country_ken'
+        name: Dadaab Camps Refugee Population
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-drc_refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: DRC Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-ethiopian_refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: Ethiopian Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-food_insecure_people:
+        country: '@country_ken'
+        name: Food Insecure People
+        organization: Government of Kenya
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    ken-kakuma_camp_new_refugee_arrival_registrations_per_year:
+        country: '@country_ken'
+        name: Kakuma Camp New Refugee Arrival Registrations (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-kakuma_camp_refugee_population:
+        country: '@country_ken'
+        name: Kakuma Camp Refugee Population
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-new_idps_by_conflict_per_year:
+        country: '@country_ken'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-new_idps_by_natural_disasters_per_year:
+        country: '@country_ken'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-s_sudanese_refugee_arrivals_in_kenya_per_year:
+        country: '@country_ken'
+        name: S. Sudanese Refugee Arrivals in Kenya (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-s_sudanese_refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: S. Sudanese Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-somali_refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: Somali Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ken-sudanese_refugees_asylum_seekers_in_kenya:
+        country: '@country_ken'
+        name: Sudanese Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lbn-displaced_syrians_in_lebanon:
+        country: '@country_lbn'
+        name: Displaced Syrians in Lebanon
+        organization: Government of Lebanon
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lbn-palestine_refugees_from_syria_in_lebanon:
+        country: '@country_lbn'
+        name: Palestine Refugees from Syria in Lebanon
+        organization: Government of Lebanon
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lbn-palestine_refugees_in_lebanon:
+        country: '@country_lbn'
+        name: Palestine Refugees in Lebanon
+        organization: Government of Lebanon
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lbn-palestinian_refugees_from_syria_in_lebanon:
+        country: '@country_lbn'
+        name: Palestinian Refugees from Syria in Lebanon
+        organization: UNRWA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lbn-people_in_need:
+        country: '@country_lbn'
+        name: People in Need
+        organization: Government of Lebanon
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    lbn-people_targeted_for_assistance:
+        country: '@country_lbn'
+        name: People Targeted for Assistance
+        organization: Government of Lebanon
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    lbn-people_targeted_for_protection_direct_assistance:
+        country: '@country_lbn'
+        name: People Targeted for Protection & Direct Assistance
+        organization: Government of Lebanon
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    lbn-people_targeted_for_service_delivery_economic_recovery_and_social_stability:
+        country: '@country_lbn'
+        name: People Targeted for Service Delivery, Economic Recovery and Social Stability
+        organization: Government of Lebanon
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    lby-children_in_need:
+        country: '@country_lby'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    lby-idps:
+        country: '@country_lby'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lby-migrants_in_libya:
+        country: '@country_lby'
+        name: Migrants in Libya
+        organization: IOM
+        terms: []
+    lby-new_idps_by_conflict_per_year:
+        country: '@country_lby'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lby-people_assisted_through_wfp_food_assistance_per_month:
+        country: '@country_lby'
+        name: People Assisted through WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    lby-people_in_need:
+        country: '@country_lby'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    lby-people_rescued_intercepted_at_sea_along_the_libyan_coast_per_month:
+        country: '@country_lby'
+        name: People Rescued/Intercepted at Sea Along the Libyan Coast (per month)
+        organization: UNHCR
+        terms: []
+    lby-people_targeted_for_assistance:
+        country: '@country_lby'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    lby-people_who_lost_their_lives_in_libyan_waters_per_month:
+        country: '@country_lby'
+        name: People who Lost their Lives in Libyan Waters (per month)
+        organization: UNHCR
+        terms: []
+    lby-registered_refugees_asylum_seekers_in_libya:
+        country: '@country_lby'
+        name: Registered Refugees & Asylum-Seekers in Libya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    lby-returnees:
+        country: '@country_lby'
+        name: Returnees
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_mli'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    mli-aid_workers_arrested_per_year:
+        country: '@country_mli'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    mli-aid_workers_kidnapped_per_year:
+        country: '@country_mli'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    mli-aid_workers_killed_per_year:
+        country: '@country_mli'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    mli-children_in_need:
+        country: '@country_mli'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    mli-closed_schools_due_to_insecurity:
+        country: '@country_mli'
+        name: Closed Schools due to Insecurity
+        organization: Education Cluster
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    mli-idp_returnees:
+        country: '@country_mli'
+        name: IDP Returnees
+        organization: UNHCR
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+    mli-idps:
+        country: '@country_mli'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-kka_incidents_against_aid_workers_killed_kidnapped_and_arrested_per_year:
+        country: '@country_mli'
+        name: KKA Incidents against Aid Workers (Killed, Kidnapped and Arrested per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    mli-malian_refugee_returnees:
+        country: '@country_mli'
+        name: Malian Refugee Returnees
+        organization: Government of Mali
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    mli-malian_refugees_in_burkina_faso:
+        country: '@country_mli'
+        name: Malian Refugees in Burkina Faso
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-malian_refugees_in_burkina_faso_mauritania_and_niger:
+        country: '@country_mli'
+        name: Malian Refugees in Burkina Faso, Mauritania and Niger
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-malian_refugees_in_mauritania:
+        country: '@country_mli'
+        name: Malian Refugees in Mauritania
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-malian_refugees_in_niger:
+        country: '@country_mli'
+        name: Malian Refugees in Niger
+        organization: Government of Niger
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-new_idps_by_conflict_per_year:
+        country: '@country_mli'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-new_idps_by_natural_disasters_per_year:
+        country: '@country_mli'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mli-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_mli'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: OCHA
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    mli-people_in_need:
+        country: '@country_mli'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    mli-people_received_wfp_food_assistance_per_month:
+        country: '@country_mli'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    mli-people_targeted_for_assistance:
+        country: '@country_mli'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    mli-protection_incidents_against_civilians_per_month:
+        country: '@country_mli'
+        name: Protection Incidents Against Civilians (per month)
+        organization: Protection Cluster
+        terms:
+        - '@term_civilians_incidents'
+        - '@term_theme_safety_and_security'
+    mli-protection_incidents_against_civilians_per_year:
+        country: '@country_mli'
+        name: Protection Incidents Against Civilians (per year)
+        organization: Protection Cluster
+        terms:
+        - '@term_civilians_incidents'
+        - '@term_theme_safety_and_security'
+    mli-refugees_in_mali:
+        country: '@country_mli'
+        name: Refugees in Mali
+        organization: Government of Mali
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mmr-children_in_need:
+        country: '@country_mmr'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    mmr-idp_returnees:
+        country: '@country_mmr'
+        name: IDP Returnees
+        organization: UNHCR
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+    mmr-idps_in_kachin_northern_shan_states:
+        country: '@country_mmr'
+        name: IDPs in Kachin & Northern Shan States
+        organization: CCCM Cluster
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mmr-idps_in_rakhine_state:
+        country: '@country_mmr'
+        name: IDPs in Rakhine State
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mmr-myanmar_refugees_in_thailand:
+        country: '@country_mmr'
+        name: Myanmar Refugees in Thailand
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mmr-new_idps_by_conflict_per_year:
+        country: '@country_mmr'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mmr-new_idps_by_natural_disasters_per_year:
+        country: '@country_mmr'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    mmr-people_assisted_with_wfp_food_assistance_per_month:
+        country: '@country_mmr'
+        name: People Assisted with WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    mmr-people_in_need:
+        country: '@country_mmr'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    mmr-people_targeted_for_assistance:
+        country: '@country_mmr'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    mmr-refugee_returnees_since_jun_2013:
+        country: '@country_mmr'
+        name: Refugee Returnees (since Jun 2013)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    moz-children_in_need:
+        country: '@country_moz'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    moz-idps:
+        country: '@country_moz'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    moz-new_idps_by_conflict_per_year:
+        country: '@country_moz'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    moz-new_idps_by_natural_disasters_per_year:
+        country: '@country_moz'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    moz-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_moz'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    moz-people_in_need:
+        country: '@country_moz'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    moz-people_received_wfp_food_assistance_per_month:
+        country: '@country_moz'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    moz-people_targeted_for_assistance:
+        country: '@country_moz'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    ner-children_acutely_malnourished:
+        country: '@country_ner'
+        name: Children Acutely Malnourished
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ner-children_in_need:
+        country: '@country_ner'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ner-idps:
+        country: '@country_ner'
+        name: IDPs
+        organization: Government of Niger
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ner-malian_refugees_in_niger:
+        country: '@country_ner'
+        name: Malian Refugees in Niger
+        organization: Government of Niger
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ner-new_idps_by_conflict_per_year:
+        country: '@country_ner'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ner-new_idps_by_natural_disasters_per_year:
+        country: '@country_ner'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ner-nigerian_refugees_in_niger:
+        country: '@country_ner'
+        name: Nigerian Refugees in Niger
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ner-people_in_food_crisis_emergency_ipc_phase_3_in_lake_chad_basin_crisis_area:
+        country: '@country_ner'
+        name: People in Food Crisis/Emergency (IPC phase 3+) in Lake Chad Basin Crisis
+            Area
+        organization: OCHA
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    ner-people_in_need:
+        country: '@country_ner'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ner-people_received_wfp_food_assistance_per_month:
+        country: '@country_ner'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    ner-people_targeted_for_assistance:
+        country: '@country_ner'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    ner-pregnant_or_lactating_women_acutely_malnourished:
+        country: '@country_ner'
+        name: Pregnant or Lactating Women Acutely Malnourished
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_pregnant_women'
+        - '@term_theme_nutrition'
+    ner-schools_closed_due_to_insecurity:
+        country: '@country_ner'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    ner-severely_malnourished_children_in_lake_chad_basin_crisis_area:
+        country: '@country_ner'
+        name: Severely Malnourished Children in Lake Chad Basin Crisis Area
+        organization: OCHA
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    nga-acutely_malnourished_children_in_north_east_nigeria:
+        country: '@country_nga'
+        name: Acutely Malnourished Children in North East Nigeria
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    nga-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_nga'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    nga-aid_workers_arrested_per_year:
+        country: '@country_nga'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    nga-aid_workers_kidnapped_per_year:
+        country: '@country_nga'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    nga-aid_workers_killed_per_year:
+        country: '@country_nga'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    nga-cameroonian_refugees_in_nigeria:
+        country: '@country_nga'
+        name: Cameroonian Refugees in Nigeria
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-children_in_need:
+        country: '@country_nga'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    nga-idps:
+        country: '@country_nga'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-idps_in_north_central_north_west_nigeria:
+        country: '@country_nga'
+        name: IDPs in North Central & North West Nigeria
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-kka_incidents_against_aid_workers_killed_kidnapped_and_arrested_per_year:
+        country: '@country_nga'
+        name: KKA Incidents against Aid Workers (Killed, Kidnapped and Arrested per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    nga-lassa_confirmed_fever_cases_cumulative:
+        country: '@country_nga'
+        name: Lassa Confirmed Fever Cases (cumulative)
+        organization: WHO
+        terms:
+        - '@term_lassa_fever_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_lassa_fever'
+        - '@term_theme_health'
+    nga-lassa_fever_deaths_cumulative:
+        country: '@country_nga'
+        name: Lassa Fever Deaths (cumulative)
+        organization: WHO
+        terms:
+        - '@term_lassa_fever_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_lassa_fever'
+        - '@term_theme_health'
+    nga-measles_confirmed_cases_cumulative_per_year:
+        country: '@country_nga'
+        name: Measles Confirmed Cases (Cumulative per year)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    nga-measles_deaths_cumulative_per_year:
+        country: '@country_nga'
+        name: Measles Deaths (Cumulative per year)
+        organization: WHO
+        terms:
+        - '@term_measles_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    nga-new_idps_by_conflict_per_year:
+        country: '@country_nga'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-new_idps_by_natural_disasters_per_year:
+        country: '@country_nga'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-nigerian_refugees_asylum_seekers_in_chad:
+        country: '@country_nga'
+        name: Nigerian Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-nigerian_refugees_in_cameroon:
+        country: '@country_nga'
+        name: Nigerian Refugees in Cameroon
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-nigerian_refugees_in_niger:
+        country: '@country_nga'
+        name: Nigerian Refugees in Niger
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-nigerian_refugees_in_the_region:
+        country: '@country_nga'
+        name: Nigerian Refugees in the Region
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-northeast_nigeria_people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_nga'
+        name: 'Northeast Nigeria: People in Food Crisis/Emergency (IPC phase 3+)'
+        organization: FAO
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    nga-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_nga'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: FAO
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    nga-people_in_food_crisis_emergency_ipc_phase_3_in_lake_chad_basin_crisis_area:
+        country: '@country_nga'
+        name: People in Food Crisis/Emergency (IPC phase 3+) in Lake Chad Basin Crisis
+            Area
+        organization: OCHA
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    nga-people_in_need:
+        country: '@country_nga'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    nga-people_received_wfp_food_assistance_per_month:
+        country: '@country_nga'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    nga-people_targeted_for_assistance:
+        country: '@country_nga'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    nga-returnees_since_august_2015:
+        country: '@country_nga'
+        name: Returnees since August 2015
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    nga-schools_closed_due_to_insecurity:
+        country: '@country_nga'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    nga-severely_malnourished_children_in_lake_chad_basin_crisis_area:
+        country: '@country_nga'
+        name: Severely Malnourished Children in Lake Chad Basin Crisis Area
+        organization: OCHA
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    nga-total_lassa_fever_cases_cumulative:
+        country: '@country_nga'
+        name: Total Lassa Fever Cases (cumulative)
+        organization: WHO
+        terms:
+        - '@term_lassa_fever_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_lassa_fever'
+        - '@term_theme_health'
+    nga-total_measles_cases_cumulative_per_year:
+        country: '@country_nga'
+        name: Total Measles Cases (Cumulative per year)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    nga-total_yellow_fever_cases_cumulative_per_year:
+        country: '@country_nga'
+        name: Total Yellow Fever Cases (Cumulative per year)
+        organization: WHO
+        terms:
+        - '@term_yellow_fever_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_yellow_fever'
+        - '@term_theme_health'
+    nga-yellow_fever_confirmed_cases_cumulative_per_year:
+        country: '@country_nga'
+        name: Yellow Fever Confirmed Cases (Cumulative per year)
+        organization: WHO
+        terms:
+        - '@term_yellow_fever_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_yellow_fever'
+        - '@term_theme_health'
+    nga-yellow_fever_deaths_cumulative_per_year:
+        country: '@country_nga'
+        name: Yellow Fever Deaths (Cumulative per year)
+        organization: WHO
+        terms:
+        - '@term_yellow_fever_deaths'
+        - '@term_theme_yellow_fever'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_health'
+    pse-children_in_need:
+        country: '@country_pse'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    pse-conflict_related_palestinian_deaths_per_year:
+        country: '@country_pse'
+        name: Conflict-Related Palestinian Deaths (per year)
+        organization: OCHA
+        terms: []
+    pse-conflict_related_palestinian_injuries_per_year:
+        country: '@country_pse'
+        name: Conflict-Related Palestinian Injuries (per year)
+        organization: OCHA
+        terms: []
+    pse-internally_displaced_palestinian_refugees_in_syria:
+        country: '@country_pse'
+        name: Internally Displaced Palestinian Refugees in Syria
+        organization: UNRWA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+    pse-new_idps_by_conflict_per_year:
+        country: '@country_pse'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    pse-new_idps_by_natural_disasters_per_year:
+        country: '@country_pse'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    pse-palestinian_children_injured_direct_conflict_per_year:
+        country: '@country_pse'
+        name: Palestinian Children Injured - Direct Conflict (per year)
+        organization: OCHA
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    pse-palestinian_children_killed_direct_conflict_per_year:
+        country: '@country_pse'
+        name: Palestinian Children Killed - Direct Conflict (per year)
+        organization: OCHA
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    pse-palestinian_owned_structures_demolished_by_the_israeli_authorities_per_year:
+        country: '@country_pse'
+        name: Palestinian-owned Structures Demolished by the Israeli Authorities (per
+            year)
+        organization: OCHA
+        terms: []
+    pse-palestinian_refugees_from_syria_in_jordan:
+        country: '@country_pse'
+        name: Palestinian Refugees from Syria in Jordan
+        organization: UNRWA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    pse-palestinian_refugees_from_syria_in_lebanon:
+        country: '@country_pse'
+        name: Palestinian Refugees from Syria in Lebanon
+        organization: UNRWA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    pse-palestinian_refugees_in_syria:
+        country: '@country_pse'
+        name: Palestinian Refugees in Syria
+        organization: UNRWA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    pse-people_displaced_due_to_demolitions_per_year:
+        country: '@country_pse'
+        name: People Displaced due to Demolitions (per year)
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    pse-people_in_need:
+        country: '@country_pse'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    pse-people_received_wfp_food_assistance_per_month:
+        country: '@country_pse'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    pse-people_targeted_for_assistance:
+        country: '@country_pse'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    pse-truckloads_of_goods_entering_gaza_from_israel_per_year:
+        country: '@country_pse'
+        name: Truckloads of Goods Entering Gaza from Israel (per year)
+        organization: OCHA
+        terms: []
+    sdn-children_in_need:
+        country: '@country_sdn'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    sdn-idps_in_darfur:
+        country: '@country_sdn'
+        name: IDPs in Darfur
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-new_idps_by_conflict_per_year:
+        country: '@country_sdn'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-new_idps_by_natural_disasters_per_year:
+        country: '@country_sdn'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_sdn'
+        name: People in Food Crisis/Emergency (IPC Phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    sdn-people_in_need:
+        country: '@country_sdn'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    sdn-people_targeted_for_assistance:
+        country: '@country_sdn'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    sdn-refugees_in_darfur:
+        country: '@country_sdn'
+        name: Refugees in Darfur
+        organization: OCHA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-refugees_of_other_nationalities_in_sudan:
+        country: '@country_sdn'
+        name: Refugees of other Nationalities in Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-returnees_in_darfur:
+        country: '@country_sdn'
+        name: Returnees in Darfur
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-s_sudanese_refugee_arrivals_cumulative_per_year:
+        country: '@country_sdn'
+        name: S. Sudanese Refugee Arrivals (Cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-s_sudanese_refugee_children_in_sudan_since_jan_2017:
+        country: '@country_sdn'
+        name: S. Sudanese Refugee Children in Sudan (since Jan 2017)
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_refugees'
+        - '@term_theme_displacement'
+    sdn-sudanese_refugees_and_asylum_seekers_in_ethiopia:
+        country: '@country_sdn'
+        name: Sudanese Refugees and Asylum-seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-sudanese_refugees_asylum_seekers_in_chad:
+        country: '@country_sdn'
+        name: Sudanese Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-sudanese_refugees_asylum_seekers_in_kenya:
+        country: '@country_sdn'
+        name: Sudanese Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-sudanese_refugees_in_egypt:
+        country: '@country_sdn'
+        name: Sudanese Refugees in Egypt
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-sudanese_refugees_in_jordan:
+        country: '@country_sdn'
+        name: Sudanese Refugees in Jordan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-sudanese_refugees_in_south_sudan:
+        country: '@country_sdn'
+        name: Sudanese Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    sdn-total_s_sudanese_refugees_in_sudan:
+        country: '@country_sdn'
+        name: Total S. Sudanese Refugees in Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-acutely_malnourished_children_below_5:
+        country: '@country_som'
+        name: Acutely Malnourished Children Below 5
+        organization: FSNAU
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    som-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_som'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    som-aid_workers_arrested_per_year:
+        country: '@country_som'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    som-aid_workers_kidnapped_per_year:
+        country: '@country_som'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    som-aid_workers_killed_per_year:
+        country: '@country_som'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    som-awd_cholera_cases_since_dec_2017:
+        country: '@country_som'
+        name: AWD/Cholera Cases (since Dec 2017)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    som-awd_cholera_deaths_since_dec_2017:
+        country: '@country_som'
+        name: AWD/Cholera Deaths (since Dec 2017)
+        organization: WHO
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    som-children_in_need:
+        country: '@country_som'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    som-ethiopian_refugees_asylum_seekers_in_somalia:
+        country: '@country_som'
+        name: Ethiopian Refugees & Asylum-Seekers in Somalia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-idps:
+        country: '@country_som'
+        name: IDPs
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-internally_displaced_due_to_conflict_insecurity_per_month:
+        country: '@country_som'
+        name: Internally Displaced due to Conflict/Insecurity (per month)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-internally_displaced_due_to_conflict_insecurity_per_year:
+        country: '@country_som'
+        name: Internally Displaced due to Conflict/Insecurity (per year)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-internally_displaced_due_to_drought_per_month:
+        country: '@country_som'
+        name: Internally Displaced due to Drought (per month)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-internally_displaced_due_to_drought_per_year:
+        country: '@country_som'
+        name: Internally Displaced due to Drought (per year)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-internally_displaced_due_to_floods_per_month:
+        country: '@country_som'
+        name: Internally Displaced due to Floods (per month)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-internally_displaced_due_to_floods_per_year:
+        country: '@country_som'
+        name: Internally Displaced due to Floods (per year)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_som'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    som-new_idps_by_conflict_per_year:
+        country: '@country_som'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-new_idps_by_natural_disasters_per_year:
+        country: '@country_som'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_som'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: FSNAU
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    som-people_in_need:
+        country: '@country_som'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    som-people_received_wfp_food_assistance_per_month:
+        country: '@country_som'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    som-people_targeted_for_assistance:
+        country: '@country_som'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    som-registered_refugees_asylum_seekers_in_somalia:
+        country: '@country_som'
+        name: Registered Refugees & Asylum-Seekers in Somalia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugee_assisted_spontaneous_returns_from_yemen_per_month:
+        country: '@country_som'
+        name: Somali Refugee Assisted Spontaneous Returns from Yemen (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugee_assisted_spontaneous_returns_from_yemen_per_year:
+        country: '@country_som'
+        name: Somali Refugee Assisted Spontaneous Returns from Yemen (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugee_returnees_from_kenya_cumulative_since_2014:
+        country: '@country_som'
+        name: Somali Refugee Returnees from Kenya (cumulative since 2014)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugee_returnees_from_kenya_per_month:
+        country: '@country_som'
+        name: Somali Refugee Returnees from Kenya (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugee_returnees_from_kenya_per_year:
+        country: '@country_som'
+        name: Somali Refugee Returnees from Kenya (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugee_returnees_since_2014:
+        country: '@country_som'
+        name: Somali Refugee Returnees (since 2014)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugee_returnees_with_assistance_from_unhcr_per_year:
+        country: '@country_som'
+        name: Somali Refugee Returnees with Assistance from UNHCR (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-somali_refugees_asylum_seekers_in_ethiopia:
+        country: '@country_som'
+        name: Somali Refugees & Asylum-Seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_asylum_seekers_in_kenya:
+        country: '@country_som'
+        name: Somali Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_asylum_seekers_in_uganda:
+        country: '@country_som'
+        name: Somali Refugees & Asylum-Seekers in Uganda
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_asylum_seekers_in_yemen:
+        country: '@country_som'
+        name: Somali Refugees & Asylum-Seekers in Yemen
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_asylum_seekers_in_zambia:
+        country: '@country_som'
+        name: Somali Refugees & Asylum-Seekers in Zambia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_in_djibouti:
+        country: '@country_som'
+        name: Somali Refugees in Djibouti
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_in_eritrea:
+        country: '@country_som'
+        name: Somali Refugees in Eritrea
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_in_the_horn_of_africa_yemen:
+        country: '@country_som'
+        name: Somali Refugees in the Horn of Africa & Yemen
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-somali_refugees_voluntary_repatriated_from_yemen_under_the_assisted_spontaneous_return_programme_cumulative:
+        country: '@country_som'
+        name: Somali Refugees Voluntary Repatriated from Yemen under the Assisted
+            Spontaneous Return Programme (cumulative)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_returnees'
+    som-total_internal_displacements_per_month:
+        country: '@country_som'
+        name: Total Internal Displacements (per month)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-total_internal_displacements_per_year:
+        country: '@country_som'
+        name: Total Internal Displacements (per year)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-voluntary_assisted_returns_from_dadaab_since_dec_2014:
+        country: '@country_som'
+        name: Voluntary Assisted Returns from Dadaab (since Dec 2014)
+        organization: UNHCR
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    som-yemeni_refugees_asylum_seekers_in_somalia:
+        country: '@country_som'
+        name: Yemeni Refugees & Asylum-Seekers in Somalia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-acutely_malnourished_children:
+        country: '@country_ssd'
+        name: Acutely Malnourished Children
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ssd-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_ssd'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    ssd-aid_workers_arrested_per_year:
+        country: '@country_ssd'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    ssd-aid_workers_kidnapped_per_year:
+        country: '@country_ssd'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    ssd-aid_workers_killed_per_year:
+        country: '@country_ssd'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    ssd-car_refugees_in_south_sudan:
+        country: '@country_ssd'
+        name: CAR Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-children_in_need:
+        country: '@country_ssd'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ssd-civilians_in_unmiss_protection_sites:
+        country: '@country_ssd'
+        name: Civilians in UNMISS Protection Sites
+        organization: UNMISS
+        terms: []
+    ssd-drc_refugees_in_south_sudan:
+        country: '@country_ssd'
+        name: DRC Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-ethiopian_refugees_in_south_sudan:
+        country: '@country_ssd'
+        name: Ethiopian Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-humanitarian_access_incidents_per_month:
+        country: '@country_ssd'
+        name: Humanitarian Access Incidents (per month)
+        organization: OCHA
+        terms:
+        - '@term_humanitarian_access_incidents'
+        - '@term_theme_safety_and_security'
+    ssd-idps:
+        country: '@country_ssd'
+        name: IDPs
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-idps_in_bentiu_poc:
+        country: '@country_ssd'
+        name: IDPs in Bentiu PoC
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_ssd'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    ssd-new_idps_by_conflict_per_year:
+        country: '@country_ssd'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-new_idps_by_natural_disasters_per_year:
+        country: '@country_ssd'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_ssd'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    ssd-people_in_need:
+        country: '@country_ssd'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ssd-people_received_wfp_food_assistance_per_month:
+        country: '@country_ssd'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    ssd-people_targeted_for_assistance:
+        country: '@country_ssd'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    ssd-population_in_wau_poc_area_adjacent_to_unmiss:
+        country: '@country_ssd'
+        name: Population in Wau PoC Area Adjacent to UNMISS
+        organization: IOM
+        terms: []
+    ssd-pregnant_or_lactating_acutely_malnourished_women:
+        country: '@country_ssd'
+        name: Pregnant or Lactating Acutely Malnourished Women
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_pregnant_women'
+        - '@term_theme_nutrition'
+    ssd-refugees_in_south_sudan:
+        country: '@country_ssd'
+        name: Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_drc_cumulative_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in DRC (Cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_ethiopia_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Ethiopia (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_gambella_per_month:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Gambella (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_gambella_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Gambella (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_kenya_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Kenya (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_sudan_cumulative_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Sudan (Cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_the_region_cumulative_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in the Region (Cumulative per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_uganda_per_month:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Uganda (per month)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_arrivals_in_uganda_per_year:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Arrivals in Uganda (per year)
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugee_children_in_sudan_since_jan_2017:
+        country: '@country_ssd'
+        name: S. Sudanese Refugee Children in Sudan (since Jan 2017)
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_refugees'
+        - '@term_theme_displacement'
+    ssd-s_sudanese_refugees_asylum_seekers_in_ethiopia:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees & Asylum-Seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugees_asylum_seekers_in_kenya:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees & Asylum-Seekers in Kenya
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugees_in_drc:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees in DRC
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugees_in_egypt:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees in Egypt
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugees_in_gambella:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees in Gambella
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugees_in_the_region:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees in the Region
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-s_sudanese_refugees_in_uganda:
+        country: '@country_ssd'
+        name: S. Sudanese Refugees in Uganda
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-sudanese_refugees_in_south_sudan:
+        country: '@country_ssd'
+        name: Sudanese Refugees in South Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ssd-total_s_sudanese_refugees_in_sudan:
+        country: '@country_ssd'
+        name: Total S. Sudanese Refugees in Sudan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_syr'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    syr-aid_workers_arrested_per_year:
+        country: '@country_syr'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    syr-aid_workers_kidnapped_per_year:
+        country: '@country_syr'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    syr-aid_workers_killed_per_year:
+        country: '@country_syr'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    syr-attacks_on_health_care_injured_per_year:
+        country: '@country_syr'
+        name: 'Attacks on Health Care: Injured (per year)'
+        organization: WHO
+        terms:
+        - '@term_health_facilities_attacks'
+        - '@term_theme_safety_and_security'
+        - '@term_theme_health'
+    syr-attacks_on_health_care_killed_per_year:
+        country: '@country_syr'
+        name: 'Attacks on Health Care: Killed (per year)'
+        organization: WHO
+        terms:
+        - '@term_health_facilities_attacks'
+        - '@term_theme_safety_and_security'
+        - '@term_theme_health'
+    syr-border_crossings_into_iraq_since_the_commencement_of_the_military_operation_in_northeastern_syria_cumulative:
+        country: '@country_syr'
+        name: Border Crossings into Iraq since the Commencement of the Military Operation
+            in Northeastern Syria (cumulative)
+        organization: IOM
+        terms: []
+    syr-border_crossings_into_iraq_since_the_commencement_of_the_military_operation_in_northeastern_syria_per_day:
+        country: '@country_syr'
+        name: Border Crossings into Iraq since the Commencement of the Military Operation
+            in Northeastern Syria (per day)
+        organization: IOM
+        terms: []
+    syr-children_displaced_in_northwestern_syria_since_dec_2019:
+        country: '@country_syr'
+        name: Children Displaced in Northwestern Syria (since Dec 2019)
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+        - '@term_theme_displacement'
+    syr-children_in_need:
+        country: '@country_syr'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    syr-idp_arrivals_in_north_west_syria_per_month:
+        country: '@country_syr'
+        name: IDP Arrivals in north-west Syria (per month)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-idp_departures_in_north_west_syria_per_month:
+        country: '@country_syr'
+        name: IDP Departures in north-west Syria (per month)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-idp_movements_per_month:
+        country: '@country_syr'
+        name: IDP Movements (per month)
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-idp_movements_per_year:
+        country: '@country_syr'
+        name: IDP Movements (per year)
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-idp_spontaneous_returns_per_month:
+        country: '@country_syr'
+        name: IDP Spontaneous Returns (per month)
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+    syr-idp_spontaneous_returns_per_year:
+        country: '@country_syr'
+        name: IDP Spontaneous Returns (per year)
+        organization: OCHA
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+    syr-idps:
+        country: '@country_syr'
+        name: IDPs
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-internally_displaced_palestinian_refugees_in_syria:
+        country: '@country_syr'
+        name: Internally Displaced Palestinian Refugees in Syria
+        organization: UNRWA
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_idps'
+    syr-kka_incidents_killed_kidnapped_and_arrested_against_aid_workers_per_year:
+        country: '@country_syr'
+        name: KKA Incidents (Killed, Kidnapped and Arrested) against Aid Workers (per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    syr-new_idps_by_conflict_per_year:
+        country: '@country_syr'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-new_idps_by_natural_disasters_per_year:
+        country: '@country_syr'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-people_displaced_in_northwestern_syria_since_dec_2019:
+        country: '@country_syr'
+        name: People Displaced in Northwestern Syria (since Dec 2019)
+        organization: OCHA
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_syr'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: WFP
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    syr-people_in_need:
+        country: '@country_syr'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    syr-people_received_wfp_food_assistance_per_month:
+        country: '@country_syr'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    syr-people_targeted_for_assistance:
+        country: '@country_syr'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    syr-registered_syrian_refugee_children:
+        country: '@country_syr'
+        name: Registered Syrian Refugee Children
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+        - '@term_refugees'
+        - '@term_theme_displacement'
+    syr-registered_syrian_refugees_in_the_region:
+        country: '@country_syr'
+        name: Registered Syrian Refugees in the Region
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-syrian_refugees_in_egypt:
+        country: '@country_syr'
+        name: Syrian Refugees in Egypt
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-syrian_refugees_in_iraq:
+        country: '@country_syr'
+        name: Syrian Refugees in Iraq
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-syrian_refugees_in_jordan:
+        country: '@country_syr'
+        name: Syrian Refugees in Jordan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-syrian_refugees_in_lebanon:
+        country: '@country_syr'
+        name: Syrian Refugees in Lebanon
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-syrian_refugees_in_turkey:
+        country: '@country_syr'
+        name: Syrian Refugees in Turkey
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-syrian_refugees_in_zaatari_camp:
+        country: '@country_syr'
+        name: Syrian Refugees in Zaatari Camp
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    syr-total_attacks_on_health_care_per_year:
+        country: '@country_syr'
+        name: Total Attacks on Health Care (per year)
+        organization: WHO
+        terms:
+        - '@term_health_facilities_attacks'
+        - '@term_theme_safety_and_security'
+        - '@term_theme_health'
+    tcd-car_refugees_asylum_seekers_in_chad:
+        country: '@country_tcd'
+        name: CAR Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-children_acutely_malnourished:
+        country: '@country_tcd'
+        name: Children Acutely Malnourished
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    tcd-children_in_need:
+        country: '@country_tcd'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    tcd-idps:
+        country: '@country_tcd'
+        name: IDPs
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-measles_confirmed_cases_per_year:
+        country: '@country_tcd'
+        name: Measles Confirmed Cases (per year)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    tcd-measles_deaths_per_year:
+        country: '@country_tcd'
+        name: Measles Deaths (per year)
+        organization: WHO
+        terms:
+        - '@term_measles_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    tcd-new_idps_by_conflict_per_year:
+        country: '@country_tcd'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-new_idps_by_natural_disasters_per_year:
+        country: '@country_tcd'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-nigerian_refugees_asylum_seekers_in_chad:
+        country: '@country_tcd'
+        name: Nigerian Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-people_assisted_with_wfp_food_assistance_per_month:
+        country: '@country_tcd'
+        name: People Assisted with WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    tcd-people_at_food_crisis_emergency_ipc_phase_3_in_the_lake_chad_basin_crisis_area:
+        country: '@country_tcd'
+        name: People at Food Crisis/Emergency (IPC phase 3+) in the Lake Chad Basin
+            Crisis Area
+        organization: OCHA
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    tcd-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_tcd'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: Government of Chad
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    tcd-people_in_need:
+        country: '@country_tcd'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    tcd-people_targeted_for_assistance:
+        country: '@country_tcd'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    tcd-pregnant_or_lactating_women_acutely_malnourished:
+        country: '@country_tcd'
+        name: Pregnant or Lactating Women Acutely Malnourished
+        organization: IPC
+        terms:
+        - '@term_acutely_malnourished_pregnant_women'
+        - '@term_theme_nutrition'
+    tcd-refugees_asylum_seekers_in_chad:
+        country: '@country_tcd'
+        name: Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-schools_closed_due_to_insecurity:
+        country: '@country_tcd'
+        name: Schools Closed due to Insecurity
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    tcd-severely_malnourished_children_in_lake_chad_basin_crisis_area:
+        country: '@country_tcd'
+        name: Severely Malnourished Children in Lake Chad Basin Crisis Area
+        organization: OCHA
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    tcd-sudanese_refugees_asylum_seekers_in_chad:
+        country: '@country_tcd'
+        name: Sudanese Refugees & Asylum-Seekers in Chad
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    tcd-total_measles_cases_per_year:
+        country: '@country_tcd'
+        name: Total Measles Cases (per year)
+        organization: WHO
+        terms:
+        - '@term_measles_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_measles'
+        - '@term_theme_health'
+    ukr-children_in_need:
+        country: '@country_ukr'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ukr-conflict_related_civilian_casualties_killed_and_injured_per_month:
+        country: '@country_ukr'
+        name: Conflict-related Civilian Casualties (Killed and Injured per month)
+        organization: OHCHR
+        terms:
+        - '@term_civilians_killed'
+        - '@term_theme_safety_and_security'
+        - '@term_civilians_injured'
+    ukr-conflict_related_civilian_casualties_killed_and_injured_per_year:
+        country: '@country_ukr'
+        name: Conflict-related Civilian Casualties (Killed and Injured per year)
+        organization: OHCHR
+        terms:
+        - '@term_civilians_killed'
+        - '@term_theme_safety_and_security'
+        - '@term_civilians_injured'
+    ukr-conflict_related_civilian_injuries_per_month:
+        country: '@country_ukr'
+        name: Conflict-related Civilian Injuries (per month)
+        organization: OHCHR
+        terms:
+        - '@term_civilians_injured'
+        - '@term_theme_safety_and_security'
+    ukr-conflict_related_civilians_killed_per_month:
+        country: '@country_ukr'
+        name: Conflict-related Civilians Killed (per month)
+        organization: OHCHR
+        terms:
+        - '@term_civilians_killed'
+        - '@term_theme_safety_and_security'
+    ukr-conflict_related_deaths_cumulative:
+        country: '@country_ukr'
+        name: Conflict-related Deaths (Cumulative)
+        organization: OHCHR
+        terms: []
+    ukr-conflict_related_injuries_cumulative:
+        country: '@country_ukr'
+        name: Conflict-related Injuries (Cumulative)
+        organization: OHCHR
+        terms: []
+    ukr-new_idps_by_conflict_per_year:
+        country: '@country_ukr'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ukr-people_in_need:
+        country: '@country_ukr'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ukr-people_targeted_for_assistance:
+        country: '@country_ukr'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    ukr-schools_damaged_destroyed_by_the_conflict_per_year:
+        country: '@country_ukr'
+        name: Schools Damaged/Destroyed by the Conflict (per year)
+        organization: UNICEF
+        terms:
+        - '@term_schools_damaged'
+        - '@term_theme_education'
+    ukr-schools_temporarily_closed_due_the_conflict_per_year:
+        country: '@country_ukr'
+        name: Schools Temporarily Closed due the Conflict (per year)
+        organization: UNICEF
+        terms:
+        - '@term_schools_closed'
+        - '@term_theme_education'
+    ven-children_in_need:
+        country: '@country_ven'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ven-people_in_need:
+        country: '@country_ven'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    ven-people_targeted_for_assistance:
+        country: '@country_ven'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_ecuador:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants Ecuador
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_in_brazil:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants in Brazil
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_in_colombia:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants in Colombia
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_in_costa_rica:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants in Costa Rica
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_in_guyana:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants in Guyana
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_in_panama:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants in Panama
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_in_peru:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants in Peru
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelan_refugees_and_migrants_trinidad_and_tobago:
+        country: '@country_ven'
+        name: Venezuelan Refugees and Migrants Trinidad and Tobago
+        organization: R4V
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    ven-venezuelans_in_latin_america_and_the_caribbean:
+        country: '@country_ven'
+        name: Venezuelans in Latin America and the Caribbean
+        organization: R4V
+        terms: []
+    yem-aid_workers_affected_by_kka_incidents_killed_kidnapped_and_arrested_per_year:
+        country: '@country_yem'
+        name: Aid Workers affected by KKA Incidents (Killed, Kidnapped and Arrested
+            per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    yem-aid_workers_arrested_per_year:
+        country: '@country_yem'
+        name: Aid Workers Arrested (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_arrested'
+        - '@term_theme_safety_and_security'
+    yem-aid_workers_kidnapped_per_year:
+        country: '@country_yem'
+        name: Aid Workers Kidnapped (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kidnapped'
+        - '@term_theme_safety_and_security'
+    yem-aid_workers_killed_per_year:
+        country: '@country_yem'
+        name: Aid Workers Killed (per year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_killed'
+        - '@term_theme_safety_and_security'
+    yem-children_in_need:
+        country: '@country_yem'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    yem-children_suffering_from_severe_acute_malnutrition:
+        country: '@country_yem'
+        name: Children Suffering from Severe Acute Malnutrition
+        organization: UNICEF
+        terms:
+        - '@term_acutely_malnourished_children'
+        - '@term_theme_nutrition'
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    yem-cholera_deaths_since_january_2018:
+        country: '@country_yem'
+        name: Cholera Deaths (since January 2018)
+        organization: Government of Yemen
+        terms:
+        - '@term_cholera_deaths'
+        - '@term_theme_disease_deaths'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    yem-cholera_suspected_cases_since_jan_2018:
+        country: '@country_yem'
+        name: Cholera Suspected Cases (since Jan 2018)
+        organization: WHO
+        terms:
+        - '@term_cholera_cases'
+        - '@term_theme_disease_cases'
+        - '@term_theme_cholera'
+        - '@term_theme_health'
+    yem-idps_in_2019_cumulative:
+        country: '@country_yem'
+        name: IDPs in 2019 (cumulative)
+        organization: UNHCR
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-idps_since_march_2015:
+        country: '@country_yem'
+        name: IDPs since March 2015
+        organization: IOM
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-kka_incidents_against_aid_workers_killed_kidnapped_and_arrested_per_year:
+        country: '@country_yem'
+        name: KKA Incidents against Aid Workers (Killed, Kidnapped and Arrested per
+            year)
+        organization: Insecurity Insight
+        terms:
+        - '@term_aid_workers_kka_incidents'
+        - '@term_theme_safety_and_security'
+        - '@term_aid_workers_arrested'
+        - '@term_aid_workers_kidnapped'
+        - '@term_aid_workers_killed'
+    yem-new_idps_by_conflict_per_year:
+        country: '@country_yem'
+        name: New IDPs by Conflict (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-new_idps_by_natural_disasters_per_year:
+        country: '@country_yem'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-people_assisted_through_wfp_assistance_per_month:
+        country: '@country_yem'
+        name: People Assisted through WFP Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    yem-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_yem'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    yem-people_in_need:
+        country: '@country_yem'
+        name: People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    yem-people_targeted_for_assistance:
+        country: '@country_yem'
+        name: People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'
+    yem-refugees_asylum_seekers_in_yemen:
+        country: '@country_yem'
+        name: Refugees & Asylum-Seekers in Yemen
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-returnees:
+        country: '@country_yem'
+        name: Returnees
+        organization: UNHCR
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-returnees_since_sep_2019:
+        country: '@country_yem'
+        name: Returnees since Sep 2019
+        organization: IOM
+        terms:
+        - '@term_returnees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-somali_refugees_asylum_seekers_in_yemen:
+        country: '@country_yem'
+        name: Somali Refugees & Asylum-Seekers in Yemen
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-yemeni_refugees_and_asylum_seekers_in_ethiopia:
+        country: '@country_yem'
+        name: Yemeni Refugees and Asylum-seekers in Ethiopia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-yemeni_refugees_asylum_seekers_in_somalia:
+        country: '@country_yem'
+        name: Yemeni Refugees & Asylum-Seekers in Somalia
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    yem-yemeni_refugees_in_jordan:
+        country: '@country_yem'
+        name: Yemeni Refugees in Jordan
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    zwe-children_in_need:
+        country: '@country_zwe'
+        name: Children in Need
+        organization: UNICEF
+        terms:
+        - '@term_children_in_need'
+        - '@term_theme_protection_and_human_rights'
+    zwe-drc_refugees_in_zimbabwe:
+        country: '@country_zwe'
+        name: DRC Refugees in Zimbabwe
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    zwe-mozambican_asylum_seekers_in_zimbabwe:
+        country: '@country_zwe'
+        name: Mozambican Asylum-Seekers in Zimbabwe
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    zwe-new_idps_by_natural_disasters_per_year:
+        country: '@country_zwe'
+        name: New IDPs by Natural Disasters (per year)
+        organization: IDMC
+        terms:
+        - '@term_idps'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    zwe-people_in_food_crisis_emergency_ipc_phase_3:
+        country: '@country_zwe'
+        name: People in Food Crisis/Emergency (IPC phase 3+)
+        organization: IPC
+        terms:
+        - '@term_food_insecure_people'
+        - '@term_theme_food'
+    zwe-people_received_wfp_food_assistance_per_month:
+        country: '@country_zwe'
+        name: People Received WFP Food Assistance (per month)
+        organization: WFP
+        terms:
+        - '@term_people_assisted_wfp'
+        - '@term_theme_food'
+    zwe-refugees_asylum_seekers_in_zimbabwe:
+        country: '@country_zwe'
+        name: Refugees & Asylum-Seekers in Zimbabwe
+        organization: UNHCR
+        terms:
+        - '@term_refugees'
+        - '@term_theme_displacement'
+        - '@term_theme_protection_and_human_rights'
+    zwe-total_people_in_need:
+        country: '@country_zwe'
+        name: Total People in Need
+        organization: OCHA
+        terms:
+        - '@term_people_in_need'
+        - '@term_theme_protection_and_human_rights'
+    zwe-total_people_targeted_for_assistance:
+        country: '@country_zwe'
+        name: Total People Targeted for Assistance
+        organization: OCHA
+        terms:
+        - '@term_people_targeted_for_assistance'
+        - '@term_theme_protection_and_human_rights'

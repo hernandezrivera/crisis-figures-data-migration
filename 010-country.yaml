@@ -1,0 +1,88 @@
+App\Entity\Country:
+    country_afg:
+        code: afg
+        name: Afghanistan
+    country_bdi:
+        code: bdi
+        name: Burundi
+    country_bfa:
+        code: bfa
+        name: Burkina Faso
+    country_bgd:
+        code: bgd
+        name: Bangladesh
+    country_caf:
+        code: caf
+        name: Central African Republic
+    country_cmr:
+        code: cmr
+        name: Cameroon
+    country_cod:
+        code: cod
+        name: Democratic Republic of the Congo
+    country_col:
+        code: col
+        name: Colombia
+    country_eth:
+        code: eth
+        name: Ethiopia
+    country_hti:
+        code: hti
+        name: Haiti
+    country_irq:
+        code: irq
+        name: Iraq
+    country_ken:
+        code: ken
+        name: Kenya
+    country_lbn:
+        code: lbn
+        name: Lebanon
+    country_lby:
+        code: lby
+        name: Libya
+    country_mli:
+        code: mli
+        name: Mali
+    country_mmr:
+        code: mmr
+        name: Myanmar
+    country_moz:
+        code: moz
+        name: Mozambique
+    country_ner:
+        code: ner
+        name: Niger
+    country_nga:
+        code: nga
+        name: Nigeria
+    country_pse:
+        code: pse
+        name: occupied Palestinian territory
+    country_sdn:
+        code: sdn
+        name: Sudan
+    country_som:
+        code: som
+        name: Somalia
+    country_ssd:
+        code: ssd
+        name: South Sudan
+    country_syr:
+        code: syr
+        name: Syria
+    country_tcd:
+        code: tcd
+        name: Chad
+    country_ukr:
+        code: ukr
+        name: Ukraine
+    country_ven:
+        code: ven
+        name: Venezuela
+    country_yem:
+        code: yem
+        name: Yemen
+    country_zwe:
+        code: zwe
+        name: Zimbabwe
